@@ -1,7 +1,7 @@
 import sqlite3
 
 # Connect to the SQLite database (creates the database file if it doesn't exist)
-conn = sqlite3.connect('etherscan_data.db')  # File-based database, 'etherscan_data.db' is the file name.
+conn = sqlite3.connect('etherscan_data.db')  # File-based database, 'etherscan_data.db' is the file name
 cursor = conn.cursor()
 
 # Create a table for storing Ethereum transactions
