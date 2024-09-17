@@ -5,19 +5,23 @@
 #Imports 
 import os
 import requests
+import sqlite3 
+from datetime import datetime
 from dotenv import load_dotenv 
+from database import ETH_Database
 
 
 #Load environment variables from .env file 
 load_dotenv()
 
-#Variable
+# Set wallet adress variable 
 address = '0x4838B106FCe9647Bdf1E7877BF73cE8B0BAD5f97'
 
-# Assign environment variables from .env to constant variuables
+# Assign environment variables to constant variuables/ Initialize DB
 ETH_API_KEY = (os.getenv('ETH_API_KEY'))
+ETH_DB = ETH_Database()
 
-# connect ot he api
+# connect to the etherscan api
 url = "https://api.etherscan.io/api"
 
 
@@ -61,7 +65,6 @@ txlist_params = {
 
 # Send request to get normal transactions
 txlist_response = requests.get(url, params=txlist_params)
-
 # Parse the transaction list response as JSON
 txlist_data = txlist_response.json()
 
@@ -69,7 +72,7 @@ txlist_data = txlist_response.json()
 if 'result' in txlist_data:
     transactions = txlist_data['result']
 
-    print(f"\nNormal transactions for address {address}:")
+    print(f"\nNormal transactions for address ({address}):")
 
     # Loop through the list of transactions and print details
     for tx in transactions:
@@ -80,12 +83,32 @@ if 'result' in txlist_data:
         tx_block = tx['blockNumber']
         tx_time = tx['timeStamp']
 
-        print(f"\nTransaction Hash: {tx_hash}")
-        print(f"From: {tx_from}")
-        print(f"To: {tx_to}")
-        print(f"Value: {tx_value} ETH")
-        print(f"Block Number: {tx_block}")
-        print(f"Timestamp: {tx_time}")
+        # ---- Initialize the database with the unique filename ----
+        ETH_DB = ETH_Database(db_name='etherscan_data.db')
+        
+
+        # Insert each transaction into the database
+        ETH_DB.insert_transaction(tx_hash, tx_from, tx_to, tx_value, tx_block, tx_time)
+
+        #print(f"\nTransaction Hash: {tx_hash}")
+        #print(f"From: {tx_from}")
+        #print(f"To: {tx_to}")
+        #print(f"Value: {tx_value} ETH")
+        #print(f"Block Number: {tx_block}")
+        #print(f"Timestamp: {tx_time}")
+
+    # Fetch and print all transactions from the database (optional)
+    results = ETH_DB.fetch_all_transactions()
+
+    count_rows = len(results)
+    print("\nStored transactions in the database:")
+    print(f"\nTotal of {count_rows} transactions stored")
+    
+
+
+    # Close the database connection
+    ETH_DB.close()
+    
 
 else:
     print("No transactions found for this address.")
