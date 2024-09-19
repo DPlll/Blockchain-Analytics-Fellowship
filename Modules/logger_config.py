@@ -1,9 +1,13 @@
-
+import os
 import logging
 import colorlog
 
 # Sets up and configures the logger to output to both a file and the terminal with colors.
-def configure_logger(log_file='crypto_analysis.log', log_level=logging.INFO):
+def configure_logger(log_folder='logs',log_file='crypto_analysis.log', log_level=logging.INFO):
+
+    # Ensure the log folder exists
+    if not os.path.exists(log_folder):
+        os.makedirs(log_folder)
     
     # Create a logger
     logger = logging.getLogger()

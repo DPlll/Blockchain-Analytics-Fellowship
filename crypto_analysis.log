@@ -1,0 +1,4 @@
+2024-09-19 00:54:27,557 - INFO - __main__ is running...
+2024-09-19 00:54:27,791 - INFO - Balance of address 0x4838B106FCe9647Bdf1E7877BF73cE8B0BAD5f97: 9.536927790922817 ETH
+2024-09-19 00:54:30,760 - INFO - Retreiving Transactions from Etherscan.
+2024-09-19 00:55:40,731 - INFO - Stored transactions in the database: 50000

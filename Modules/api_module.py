@@ -40,7 +40,6 @@ def get_transactions(address, startblock=0, endblock=99999999, sort='asc'):
         'sort': sort,  # Can use 'asc' for loldest first or use 'desc' to sort by newest first
         'apikey': ETH_API_KEY
     }
-
     # Send request to get normal transactions
     response = requests.get(url, params=params)
     # Parse the transaction list response as JSON
@@ -50,3 +49,23 @@ def get_transactions(address, startblock=0, endblock=99999999, sort='asc'):
     else:
         return print("Normal Transactions: Error, received empty list from etherscan")  # Return empty list if no transactions are found
 
+# --- Etherscan- Get Balnce for multiple transactions in a single call (up to 20 addresses)
+#set adresses for multi balance
+#addresses= [
+#    '0x9df8c5F47527B6E20D55D03d35C17fc44155c9BC',
+#    '0x812Bc129aFC70869DcA342Dd8dFdaa514DC47377',
+#    'xb2C657c65A5CeFdc05bFF86DE25017B8d5C11BA3',
+#]
+#def get_balance(addresses):
+#    params = {
+#        'module': 'account',
+#        'action': 'balancemulti',
+#        'address': addresses,
+#        'tag': 'latest',
+#        'apikey': ETH_API_KEY
+#    }
+#    response = requests.get(url, params=params) # get responce/ send inqury 
+#    data = response.json() # Parse json request to python 
+#    balance_wei = data['result']
+#    balance_eth = int(balance_wei) / 10**18  # Convert Wei to ETH
+#    return balance_eth
