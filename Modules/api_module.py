@@ -40,6 +40,7 @@ def get_transactions(address, startblock=0, endblock=99999999, sort='asc'):
         'sort': sort,  # Can use 'asc' for loldest first or use 'desc' to sort by newest first
         'apikey': ETH_API_KEY
     }
+
     # Send request to get normal transactions
     response = requests.get(url, params=params)
     # Parse the transaction list response as JSON
