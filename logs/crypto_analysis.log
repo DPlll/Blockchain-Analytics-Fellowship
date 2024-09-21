@@ -1,3 +1,4 @@
-2024-09-18 20:43:01,214 - INFO - Balance of address 0x4838B106FCe9647Bdf1E7877BF73cE8B0BAD5f97: 5.3062987909415655 ETH
-2024-09-18 20:44:14,003 - INFO - 
-Stored transactions in the database: 55533
+2024-09-20 21:17:36,397 - INFO - __main__ is running...
+2024-09-20 21:17:36,755 - INFO - Balance of address 0x4838B106FCe9647Bdf1E7877BF73cE8B0BAD5f97 : 5.096778666281895ETH
+2024-09-20 21:17:39,585 - INFO - Retreiving Transactions from Etherscan...
+2024-09-20 21:18:48,383 - INFO - Stored transactions in the database: 173617

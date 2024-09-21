@@ -11,6 +11,7 @@ load_dotenv()
 
 # Assign environment variables to constant variuables/ Initialize DB
 ETH_API_KEY = os.getenv('ETH_API_KEY')
+
 # connect to the etherscan api
 url = "https://api.etherscan.io/api"
 
@@ -19,7 +20,7 @@ def get_balance(address):
     params = {
         'module': 'account',
         'action': 'balance',
-        'address': address,
+        'address': address, #address needing to be tracked
         'tag': 'latest',
         'apikey': ETH_API_KEY
     }
@@ -49,13 +50,7 @@ def get_transactions(address, startblock=0, endblock=99999999, sort='asc'):
     else:
         return print("Normal Transactions: Error, received empty list from etherscan")  # Return empty list if no transactions are found
 
-# --- Etherscan- Get Balnce for multiple transactions in a single call (up to 20 addresses)
-#set adresses for multi balance
-#addresses= [
-#    '0x9df8c5F47527B6E20D55D03d35C17fc44155c9BC',
-#    '0x812Bc129aFC70869DcA342Dd8dFdaa514DC47377',
-#    'xb2C657c65A5CeFdc05bFF86DE25017B8d5C11BA3',
-#]
+# --- Etherscan- Get Balnce for multiple transactions in a single call (up to 20 addresses) ---
 #def get_balance(addresses):
 #    params = {
 #        'module': 'account',

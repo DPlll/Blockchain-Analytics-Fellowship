@@ -5,7 +5,7 @@ import sqlite3
 #Initalize Class 
 class ETH_Database:
     #Initialize connectrion to the SQLite database (creates the database file if it doesn't exist)
-    def __init__(self, db_name='etherscan_data.db'): # File-based database, 'etherscan_data.db' is the file namet
+    def __init__(self, db_name='database/etherscan_data.db'): # File-based database, 'etherscan_data.db' is the file namet
         self.conn = sqlite3.connect(db_name)
         self.cursor = self.conn.cursor()
         self.create_table() # Create the table when the class is initialized

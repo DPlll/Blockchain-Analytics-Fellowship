@@ -71,6 +71,7 @@ Consider implementing logging for long-term transaction tracking and debugging.
 # ---- WORKFLOW ---- #  
 1. Create ENV and gitignore for ethrscan api key 
 2. create main.py and import 
+3. create basic one wallet baalnce api call and get address balance 
 3. Create a Get multi adresses balance page and import class into main.py
 4. Create a file for Getting a list of 'Normal' Transactions for the Addresses and call in main.py
 5. Store and Organize Transaction Data- Design a data structure (using Python dictionaries, Pandas DataFrame, or an SQLite database) to store transaction details for each wallet.

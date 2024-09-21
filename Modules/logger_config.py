@@ -1,14 +1,11 @@
 import os
-import logging
+import logging 
 import colorlog
+import re
 
 # Sets up and configures the logger to output to both a file and the terminal with colors.
-def configure_logger(log_folder='logs',log_file='crypto_analysis.log', log_level=logging.INFO):
+def configure_logger(log_file='logs/crypto_analysis.log', log_level=logging.INFO):
 
-    # Ensure the log folder exists
-    if not os.path.exists(log_folder):
-        os.makedirs(log_folder)
-    
     # Create a logger
     logger = logging.getLogger()
     logger.setLevel(log_level)
@@ -24,11 +21,11 @@ def configure_logger(log_folder='logs',log_file='crypto_analysis.log', log_level
     # Create a console handler for colored output to the terminal
     console_handler = colorlog.StreamHandler()
     console_handler.setLevel(log_level)
-    
-    # Define the log format for file and console
+
+    # Define the log format & colors for file and console 
     file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     console_formatter = colorlog.ColoredFormatter(
-        '%(log_color)s%(asctime)s - %(levelname)s - %(message)s',
+        '%(white)s%(asctime)s - %(bold)s%(log_color)s%(levelname)s%(reset)s - %(white)s%(message)s',
         datefmt='%Y-%m-%d %H:%M:%S'
     )
     

@@ -9,22 +9,23 @@ from modules.database import ETH_Database
 from modules.logger_config import configure_logger
 
 # Set up logger
-logger = configure_logger(log_folder='logs', log_file='crypto_analysis.log')
+logger = configure_logger(log_file='logs/crypto_analysis.log')
 
 # Set wallet address for API
 address = os.getenv('address')
+#addresses= os.getenv('addresses')
 
 # Initialize the database with the unique filename
-ETH_DB = ETH_Database(db_name='etherscan_data.db')
+ETH_DB = ETH_Database(db_name='database/etherscan_data.db')
 
 def main():
     logger.info(f"{__name__} is running...")
     # Call get balance from the API module and print balance
     balance = get_balance(address)
-    logger.info(f"Balance of address {address}: {balance} ETH")
+    logger.info(f"Balance of address {address} : {balance}ETH")
     # Get the transaction list and store it in the database
     transactions = get_transactions(address)
-    logger.info(f"Retreiving Transactions from Etherscan.")
+    logger.info(f"Retreiving Transactions from Etherscan...")
     if transactions:
         for tx in transactions:
             tx_hash = tx['hash']
@@ -41,7 +42,7 @@ def main():
         #count rows of data imported to sqplite via etherscan api and print total
         count_rows = len(results)
         logger.info(f"Stored transactions in the database: {count_rows}")
-
+        
         # Close the database connection
         ETH_DB.close()
     else:
