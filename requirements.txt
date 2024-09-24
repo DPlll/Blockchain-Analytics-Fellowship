@@ -3,3 +3,4 @@ colorlog
 requests
 python-dotenv
 sqlite3
+os

@@ -4,9 +4,9 @@
 
 # Imports
 import os
-from modules.api_module import get_balance, get_transactions
-from modules.database import ETH_Database
-from modules.logger_config import configure_logger
+from Modules.api_module import get_balance, get_transactions
+from Modules.database import ETH_Database
+from Modules.logger_config import configure_logger
 
 # Set up logger
 logger = configure_logger(log_file='logs/crypto_analysis.log')
