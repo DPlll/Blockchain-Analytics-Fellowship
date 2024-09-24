@@ -4,7 +4,8 @@
 
 # Imports
 import os
-from Modules.api_module import get_balance, get_transactions
+import sys
+from Modules.api_module import get_balance, get_transactions, get_balances
 from Modules.database import ETH_Database
 from Modules.logger_config import configure_logger
 
@@ -13,13 +14,23 @@ logger = configure_logger(log_file='logs/crypto_analysis.log')
 
 # Set wallet address for API
 address = os.getenv('address')
-#addresses= os.getenv('addresses')
+addresses= os.getenv('addresses')
 
 # Initialize the database with the unique filename
 ETH_DB = ETH_Database(db_name='database/etherscan_data.db')
 
 def main():
     logger.info(f"{__name__} is running...")
+    # Call get multi balance from the API module and print balance
+    balances = get_balances(addresses)
+    if balances: # Check if balances is not None or empty
+        for balance_info in balances:
+            address = balance_info['addresses']
+            balance = balance_info['balance']
+            logger.info(f"Balance of address {addresses} : {balances} ETH")
+        else:
+            logger.warning("No balances for multibalance were retrieved or addresses are invalid.")
+    
     # Call get balance from the API module and print balance
     balance = get_balance(address)
     logger.info(f"Balance of address {address} : {balance}ETH")
