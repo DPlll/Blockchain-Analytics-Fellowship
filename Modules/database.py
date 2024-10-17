@@ -1,8 +1,7 @@
-# database.py
-
+# This module sets up and deals with the sqlite3 database for storing Ethereum transactions.
 import sqlite3
 
-#Initalize Class 
+#Initalize Class
 class ETH_Database:
     #Initialize connectrion to the SQLite database (creates the database file if it doesn't exist)
     def __init__(self, db_name='database/etherscan_data.db'): # File-based database, 'etherscan_data.db' is the file namet
