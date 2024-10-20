@@ -40,7 +40,7 @@ def main():
     # --- Call get_transactions from the API module and store the transactions in the database ---
     transactions = get_transactions(address)
     logger.info(f"Retreiving transactions for {address} from etherscan...") #print address
-    if transactions:
+    if transactions: # Check if transactions is not None or empty
         logger.info(f"Retreived {len(transactions)} Transactions from {address} via Etherscan...") #count transaction and print total
         for tx in transactions:
             tx_hash = tx['hash']
@@ -51,13 +51,12 @@ def main():
             tx_time = tx['timeStamp']
             # Insert each transaction into the database
             ETH_DB.insert_transaction(tx_hash, tx_from, tx_to, tx_value, tx_block, tx_time)
-        # Fetch and print all transactions from the database
-        results = ETH_DB.fetch_all_transactions()
-        #count rows of data imported to sqplite via etherscan api and print total
-        count_rows = len(results)
+            
+        results = ETH_DB.fetch_all_transactions() # Fetch and print all transactions from the database
+        count_rows = len(results) #count rows of data imported to sqplite via etherscan api and print total
         logger.info(f"Stored transactions in the database: {count_rows}")
-        # Close the database connection
-        ETH_DB.close()
+        logger.info('Closing the database connection...')
+        ETH_DB.close() # Close the database connection
     else:
         logger.warning(f" {__name__} No transactional data received for {address} from etherscan.")
 
