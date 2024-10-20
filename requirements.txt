@@ -4,3 +4,7 @@ requests
 python-dotenv
 sqlite3
 os
+numpy
+pandas
+
+

@@ -10,7 +10,6 @@ from Modules.logger_config import configure_logger
 #Load environment variables from .env file 
 load_dotenv()
 
-
 # Assign environment variables to constant variuables
 ETH_API_KEY = os.getenv('ETH_API_KEY')
 
@@ -38,7 +37,7 @@ def get_balance(address):
 # --- Etherscan- Get list of 'Normal' transactions for a single address (up to a maximum of 10,000 records only)---
 def get_transactions(address, startblock=0, endblock=99999999, sort='desc'):
     params = {
-        'module': 'account',
+        'module': 'account', 
         'action': 'txlist',
         'address': address, #address needing to be tracked
         'startblock': startblock, # You can change this to limit the blocks
