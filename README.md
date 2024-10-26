@@ -1,82 +1,118 @@
 
-![logo](/Users/dean/Desktop/School/UML Fall 2024 (senior)/Crpto Analytics Fellowship/Crypto-Analysis-main/Blockchain-Analytics-Fellowship/DALL·E 2024-09-21 02.14.44 - A logo concept representing a block data stream. The design features interconnected blocks at the center with flowing data lines or dots emerging from.webp)
+<h1 align="center"><strong>Blockchain Analytics</strong></h1>
 
-# Crypto-Analytics-Forensics 
 
-Create a code base and roadmap on how to track blockchain transactions for a possible future class on crypto analytics and forensics 
+![logo](blockchainanalyticslogo.png)
 
-Student Goals: Create a crypto tracking application project and roadmap for the potential future
-course and be able to get kinks out of the way for future students.
 
-Student Tasks: Reasearch, to figure out how if possible to track bitcoin using a private self
-created code base utilizing some basic cryto api’s and other tools.
 
-Specific Expectations: Figure out whether this is a probable course for students to take and if it is
-possible. If possible, create a code base that can track bitcoin transactions and create a road map
-(list of useful skills student will need) inorder to complete the course if chosen to be a viable
-course.
-#####################################################################################################
-# ---- ROAD MAP ---- #
-Phase 1: Setup and Infrastructure
-Understand Ethereum & Etherscan API
 
-Study Ethereum’s wallet architecture and how transactions work on the blockchain.
-Familiarize yourself with the Etherscan API, focusing on the getTransactionByHash and getTransactionsByAddress methods for tracking wallet activity.
-Set Up ETH Wallets
+<p align="center">
+Welcome to the **Blockchain Analytics** project by DPIII for a potential UMass Lowell course. This tool aims to help users track and analyze fraudulent blockchain transactions, providing insights into cryptocurrency movements and forensics. This README outlines the project plan, including objectives, implementation strategies, development steps, and progress.
+</p>
 
-Create 5 to 10 Ethereum wallets using a wallet tool like MetaMask, MyEtherWallet, or programmatically with a library such as eth-account in Python.
-Fund each wallet with test ETH from a testnet like Rinkeby or Goerli (since this is a closed network, using a testnet avoids real costs).
-Configure an Etherscan Account
+<hr style="height:1px;border-width:1;color:white;background-color:grey;width:90%;margin: 20px auto;">
+<p align="center">
+  <b>Dependencies:</p>
+<p align="center">
+  <a href="https://www.python.org/downloads/release/python-3122/" target="_blank">
+    <img src="https://img.shields.io/badge/python-v3.12.2-blue?labelColor=gray" alt="python" /></a>
+  <a href="https://www.sqlite.org/" target="_blank">
+    <img src="https://img.shields.io/badge/sqlite3-003B57?logo=sqlite&logoColor=ffffff" alt="sqlite3" /></a>
+  <a href="https://numpy.org/" target="_blank">
+    <img src="https://img.shields.io/badge/numpy-777BB4?logo=numpy&logoColor=ffffff" alt="numpy" /></a>
+  <a href="https://pandas.pydata.org/" target="_blank">
+    <img src="https://img.shields.io/badge/pandas-2C2D72?logo=pandas&logoColor=ffffff" alt="pandas" /></a>
+</p>
 
-Register for an Etherscan API key to access the Ethereum blockchain data.
-Review the rate limits and decide whether the free tier is sufficient for your needs or if you require a paid plan.
-Phase 2: Develop Core Functionality
-Create Python Environment
+<hr style="height:1px;border-width:1;color:white;background-color:grey;width:90%;margin: 20px auto;">
 
-Set up a Python environment with necessary dependencies, such as web3.py for blockchain interaction and requests for API calls.
-Install libraries: web3, etherscan-python, and dotenv (to manage API keys securely).
-Generate Wallet Transactions
+### Project Objectives
 
-Write scripts that send ETH between the wallets programmatically. You can use web3.py to create, sign, and broadcast transactions between the wallets.
-For testing, create a loop to simulate multiple transactions in various directions between the wallets.
-Track Transactions with Etherscan
+- Create a comprehensive code base and roadmap for tracking blockchain transactions.
+- Develop a potential future course on crypto analytics and forensics.
+- Enable students to create a crypto tracking application and roadmap for the course.
+- Identify and resolve potential issues for future students.
 
-Use Etherscan’s API to track incoming and outgoing transactions for each wallet.
-Focus on tracking data like from, to, value, timestamp, and transaction hash.
-Store and Organize Transaction Data
+### Student Goals
 
-Design a data structure (using Python dictionaries, Pandas DataFrame, or an SQLite database) to store transaction details for each wallet.
-Ensure each transaction is linked to the corresponding sender and receiver in your closed network.
+- Learn about basic Blochain interactrions, Crypto Fraud, and ways of identifying and analysizing blokchain data to identify fraud wallets
+- Develop a crypto tracking application project and roadmap for a potential future course.
+- Identify and resolve issues to streamline the course for future students.
 
-Phase 3: Reporting and Visualization
-Build Transaction Reporting Tool
+### Student Tasks
 
-Write functions that summarize the transaction activity for each wallet, such as total ETH sent, total ETH received, and transaction history.
-Consider implementing a real-time tracker that fetches and updates transaction data periodically (e.g., every minute).
-Create a Dashboard (Optional)
+- Research and determine the feasibility of tracking Bitcoin and Etherium using a private code base and basic crypto APIs.
+- Develop a code base that can track Bitcoin transactions.
+- Create a roadmap outlining the necessary skills for students to complete the course.
 
-If you want a visual representation, you can create a basic dashboard using Python libraries like Dash, Streamlit, or Plotly to visualize wallet balances and transaction flows.
-Alternatively, you can use a frontend framework like React to build a more advanced interface.
+### Specific Expectations
 
-Phase 4: Testing and Deployment
-Test on Ethereum Testnets
+- Assess the feasibility of the course for students and level of rigor (Undergraduate or Masters evel).
+- Develop a code base for **tracking Bitcoin and Etherium** transactions.
+- Create a roadmap detailing the skills required for the course.
 
-Thoroughly test the system on the Rinkeby or Goerli testnet, simulating various transaction volumes.
-Debug any errors related to API requests, transaction confirmations, or wallet interactions.
-Deploy
 
-Once stable, deploy the codebase in a more permanent environment, such as a cloud server (e.g., AWS or DigitalOcean) if you want continuous tracking.
-Ensure proper handling of API rate limits and error handling for failed API requests.
-Documentation and Maintenance
+# Roadmap
+<hr style="height:1px;border-width:1;color:white;background-color:grey;width:90%;margin:auto;">
 
-Document the codebase, including instructions for setting up wallets, interacting with Etherscan API, and running the tracker.
-Consider implementing logging for long-term transaction tracking and debugging.
-# ---- WORKFLOW ---- #  
-1. Create ENV and gitignore for ethrscan api key 
-2. create main.py and import 
-3. create basic one wallet baalnce api call and get address balance 
-3. Create a Get multi adresses balance page and import class into main.py
-4. Create a file for Getting a list of 'Normal' Transactions for the Addresses and call in main.py
-5. Store and Organize Transaction Data- Design a data structure (using Python dictionaries, Pandas DataFrame, or an SQLite database) to store transaction details for each wallet.
-6. Run all the reponse wallet transaction data threw a algo to sort and organize repeated sends and adresses 
-7. try to visualize the transactions using a data visualizer like networkx 
+## Phase 1: Environment Setup ✓
+1. **Create Environment and `.gitignore` for Etherscan API Key**
+   - Set up a virtual environment for the project.
+   - Create a `.gitignore` file to exclude sensitive information such as the Etherscan API key.
+   - Create custom `logger_config.py` for program store logs in `crypto_analyis.log`
+
+## Phase 2: Basic Functionality ✓
+2. **Create `main.py` and Import Necessary Modules**
+   - Initialize the main script file (`main.py`).
+   - Import essential modules such as `requests`, `sqlite3`, `pandas`, and custom modules.
+   - Create `api_module.py` for API use functionality
+3. **Create Basic API Call for Single Wallet Balance**
+   - Develop a function to fetch the balance of a single wallet address using the Etherscan API.
+   - Integrate this function into `main.py` and test it.
+
+4. **Create Multi-Address Balance Retrieval Feature**
+   - Develop a function to fetch balances for multiple wallet addresses.
+   - Integrate this function into `main.py` and test it.
+
+## Phase 3: Transaction Tracking ✓
+5. **Create Function to Fetch 'Normal' Transactions**
+   - Develop a function to fetch a list of 'Normal' transactions for given addresses.
+   - Integrate this function into `main.py` and test it.
+
+## Phase 4: Data Storage and Organization 
+6. **Store and Organize Transaction Data** ✓
+   - Design a `database.py` (SQLite3) to store long term large data transaction details for each address into `etherscan_data.db`.
+   - Pull long term big data from database and convert to Pandas Dataframe for faster analysis.
+
+7. **Sort and Organize Transaction Data** 
+   - Create `analysis.py` and develop an algorithm to sort and identify fraudulently connected addresses in the pandas dataframe transactions.
+   - Run all the response wallet transaction data through this algorithm and indentify the string transactions and addresses connected to the root fraudulant address.
+
+## Phase 5: Data Visualization
+8. **Visualize Transactions**
+   - Use a data visualization tool like NetworkX to visualize the transactions.
+   - Create visual representations of the transaction data to identify patterns and insights.
+
+## Phase 6: Documentation and Course Development
+9. **Create Documentation**
+   - Document the code base and provide clear instructions for setting up and running the project.
+   - Create a detailed README file outlining the project objectives, setup instructions, and usage.
+
+10. **Develop Course Roadmap**
+   - Create a roadmap detailing the skills required for the course.
+   - Outline the course structure, including modules, lessons, cumilative projects, and assignments.
+
+# WORKFLOW 
+<hr style="height:1px;border-width:1;color:white;background-color:grey;width:90%;margin: 5px;">
+
+1. Create ENV and `.gitignore` for Etherscan API key.
+2. Create `main.py` and import necessary modules.
+3. Create a basic API call to get the balance of a single wallet address.
+4. Create a multi-address balance retrieval feature and integrate it into `main.py`.
+5. Create a function to fetch a list of 'Normal' transactions for addresses and call it in `main.py`.
+6. Create `database.py` & `etherscan_data.db` to store and organize transaction data using a data structure (long term big data SQLite database).
+7. Develop an algorithm to sort and organize repeated sends and addresses in `analysis.py`.
+8. Visualize the transactions using a data visualization tool like NetworkX or Matplotlib .
+
+
