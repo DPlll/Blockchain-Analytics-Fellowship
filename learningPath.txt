@@ -170,7 +170,3 @@ This course introduces students to the Python programming language, focusing on 
 2. Logs transaction records for analysis.
 3. Stores retrieved data in a SQLite database.
 4. Uses NumPy to perform basic data analytics on the stored transaction data (e.g., calculate total sent, total received, average transaction value).
-
----
-
-This updated structure provides a strong foundation for Python programming, integrates virtual environments, logging, and secure coding practices, and ultimately leads to a robust blockchain analytics project. Let me know if you'd like to further refine any sections!
