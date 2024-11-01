@@ -2,7 +2,7 @@
 <h1 align="center"><strong>Blockchain Analytics</strong></h1>
 
 
-![logo](blockchainanalyticslogo.png)
+![logo](Modules/assets/blockchainanalyticslogo.png)
 
 
 
@@ -30,20 +30,20 @@ Welcome to the Blockchain Analytics project by DPIII for a potential UMass Lowel
 # Table of Contents
 
 1. [Project Overview](#project-overview)
-2. [Project Objectives](#project-objectives)
-3. [Student Goals](#student-goals)
-4. [Student Tasks](#student-tasks)
-5. [Specific Expectations](#specific-expectations)
-6. [Roadmap](#roadmap)
+   - [Project Objectives](#project-objectives)
+   - [Student Goals](#student-goals)
+   - [Student Tasks](#student-tasks)
+   - [Specific Expectations](#specific-expectations)
+2. [Roadmap](#roadmap)
    - [Phase 1: Environment Setup](#phase-1-environment-setup-✓)
    - [Phase 2: Basic Functionality](#phase-2-basic-functionality-✓)
    - [Phase 3: Transaction Tracking](#phase-3-transaction-tracking-✓)
    - [Phase 4: Data Storage and Organization](#phase-4-data-storage-and-organization)
-   - [Phase 5: Data Visualization](#phase-5-data-visualization)
+   - [Phase 5: Algorithmic Analysis and Data Visualization](#phase-5-algorithmic-analysis-and-data-visualization)
    - [Phase 6: Documentation and Course Development](#phase-6-documentation-and-course-development)
-7. [Workflow](#workflow)
-8. [Learning Pathway for Students](#learning-pathway-for-students)
-9. [Crypto Analytics Course Outline](#crypto-analytics-course-outline-v1)
+3. [Workflow](#workflow)
+4. [Learning Pathway for Students](#learning-pathway-for-students)
+5. [Crypto Analytics Course Outline](#crypto-analytics-course-outline-v1)
    - [Module 1: Python Basics for Crypto Analytics (Part 1)](#module-1-python-basics-for-crypto-analytics-part-1)
    - [Module 2: Python Basics for Crypto Analytics (Part 2)](#module-2-python-basics-for-crypto-analytics-part-2-virtual-environments-security-and-logging)
    - [Module 3: Working with VS Code for Python Development](#module-3-working-with-vs-code-for-python-development)
@@ -110,8 +110,8 @@ Welcome to the Blockchain Analytics project by DPIII for a potential UMass Lowel
    - Develop a function to fetch a list of 'Normal' transactions for given addresses.
    - Integrate this function into `main.py` and test it.
 
-## Phase 4: Data Storage and Organization 
-6. **Store and Organize Transaction Data** ✓
+## Phase 4: Data Storage and Organization ✓
+6. **Store and Organize Transaction Data** 
    - Design a `database.py` (SQLite3) to store long term large data transaction details for each address into `etherscan_data.db`.
    - Pull long term big data from database and convert to Pandas Dataframe for faster analysis.
 
@@ -119,17 +119,21 @@ Welcome to the Blockchain Analytics project by DPIII for a potential UMass Lowel
    - Create `analysis.py` and develop an algorithm to sort and identify fraudulently connected addresses in the pandas dataframe transactions.
    - Run all the response wallet transaction data through this algorithm and indentify the string transactions and addresses connected to the root fraudulant address.
 
-## Phase 5: Data Visualization
-8. **Visualize Transactions**
+## Phase 5: Algorithmic Analysis and Data Visualization
+8. **Create algorithm**
+   - Create math model and documentaion for algorithm
+   - Create a recursive traversal function to alanyze trasaction data and identify transaction history, root node(original address), and ending nodes (transaction ending adresses).
+
+9. **Visualize Transactions**
    - Use a data visualization tool like NetworkX to visualize the transactions.
    - Create visual representations of the transaction data to identify patterns and insights.
 
 ## Phase 6: Documentation and Course Development
-9. **Create Documentation**
+10. **Create Documentation**
    - Document the code base and provide clear instructions for setting up and running the project.
    - Create a detailed README file outlining the project objectives, setup instructions, and usage.
 
-10. **Develop Course Roadmap**
+11. **Develop Course Roadmap**
    - Create a roadmap detailing the skills required for the course.
    - Outline the course structure, including modules, lessons, cumilative projects, and assignments.
 

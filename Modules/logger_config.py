@@ -15,13 +15,13 @@ def configure_logger(log_file='logs/crypto_analysis.log', log_level=logging.INFO
 
     # File handler for logging to a file
     file_handler = logging.FileHandler(log_file, mode='a') # "a" == Append mode, "w" == ovewrite mode
-    file_handler.setLevel(log_level)
-    file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-    file_handler.setFormatter(file_formatter)
+    file_handler.setLevel(log_level) # Set the log level of the file handler
+    file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s') # Set the format of the log messages
+    file_handler.setFormatter(file_formatter) # Set the formatter of the file handler to the formatter created above
 
     # Console handler for colored output
-    console_handler = colorlog.StreamHandler()
-    console_handler.setLevel(log_level)
+    console_handler = colorlog.StreamHandler() # Create a colored console handler
+    console_handler.setLevel(log_level) 
     console_formatter = colorlog.ColoredFormatter(
         '%(asctime)s - %(bold)s%(log_color)s%(levelname)s%(reset)s - %(white)s%(message)s',
         datefmt='%Y-%m-%d %H:%M:%S'
@@ -29,7 +29,7 @@ def configure_logger(log_file='logs/crypto_analysis.log', log_level=logging.INFO
     console_handler.setFormatter(console_formatter)
 
     # Add handlers to the logger
-    logger.addHandler(file_handler)
+    logger.addHandler(file_handler) 
     logger.addHandler(console_handler)
 
     return logger

@@ -1,7 +1,7 @@
 #import data gathered from api and store it in the database into a pandas dataframe for analysis
 import sqlite3
 import pandas as pd
-from Modules.logger_config import configure_logger
+from logger_config import configure_logger
 
 # Set up logger
 logger = configure_logger(log_file='logs/crypto_analysis.log')
@@ -18,7 +18,8 @@ df = pd.read_sql_query(query,conn)
 #close the database connection
 conn.close()
 
-# --- Display the Overview data ---
+# --- Display the Overview data ---\
+
 def display_overview(df):
     print(f" Data pulled from etherscan_data.db: \n{df.head(21)}") #display the first "x" rows of the dataframe
     print(f" Summary Statistics of Tracsactions: \n{df['tx_value'].describe()}" ) #display the summary statistics of the dataframe
