@@ -2,7 +2,7 @@
 <h1 align="center"><strong>Blockchain Analytics</strong></h1>
 
 
-![logo](Modules/assets/blockchainanalyticslogo.png)
+![logo](assets/blockchainanalyticslogo.png)
 
 
 
