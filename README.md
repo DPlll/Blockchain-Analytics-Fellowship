@@ -52,6 +52,10 @@ Welcome to the Blockchain Analytics project by DPIII for a potential UMass Lowel
    - [Module 6: Logging Transactions and Data Management](#module-6-logging-transactions-and-data-management)
    - [Module 7: Storing Data with SQLite and Analyzing with NumPy](#module-7-storing-data-with-sqlite-and-analyzing-with-numpy)
    - [Final Project](#final-project)
+6. [Algorithm Math Model](#algorithm-math-model)
+   - [Address Setup Overview](#address-setup-overview)
+   - [Node Connections](#node-connections)
+   - [Visual of Node Interactions -Directed Graph](#Visual-of-Node-Interactions-(Directed-Graph))
 
 ---
  
@@ -325,5 +329,59 @@ This course introduces students to the Python programming language, focusing on 
 3. Stores retrieved data in a SQLite database.
 4. Uses NumPy to perform basic data analytics on the stored transaction data (e.g., calculate total sent, total received, average transaction value).
 
+---
 
+# Algorithm Math Model
+
+## Address Setup Overview 
+ Description of example fraud wallet addresses and their uses.
+
+### Root Node
+
+- **v1**: `0x3130A00D2F482c35F32044Ace12c64C1dB423cf9`
+
+### Intermediate Transfer Wallets
+
+- **v2**: `0xf3A78579431F4C9C31d3E4180D4783213787d861`
+- **v3**: `0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66`
+- **v4**: `0x32f0591087CFC166B6CFCef97dB845Fb27A1274B`
+- **v5**: `0x463676ac589C4D70b158Bda0F2b03C1A3260e829`
+- **v6**: `0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd`
+- **v7**: `0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd`
+- **v8**: `0xfF59d11d5F0D448AD84E246aC2c04F6678e85673`
+
+### Cold Storage (End Nodes)
+
+- **v9**: `0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE`
+- **v10**: `0x981D5DD367b022a162c223cB59B50e1B167098a0`
+
+---
+
+## Node Connections
+
+The wallets are connected as follows:
+
+- **Root Node**: v1 (Root Wallet)
+- **Intermediate Transfers**: v1 sends ETH to several intermediate wallets (v2, v3, v4, v5, v6, v7, v8).
+- **End Nodes**: v9 and v10 (Cold Storage) are the final destination nodes with no outgoing connections.
+
+## Sample Path Outline
+
+1. **Root Node to Intermediate Wallets**:  
+   `v1 → v2`, `v1 → v3`, `v1 → v4`
+
+2. **Mixing Between Intermediate Wallets**:  
+   Intermediate wallets send ETH to other intermediate wallets to simulate mixing.  
+   `v2 → v5`, `v3 → v6`, `v4 → v7/v8`
+
+3. **Intermediate Wallets to Cold Storage**:  
+   Finally, intermediate wallets send ETH to cold storage addresses.  
+   `v6/v5 → v9`, `v7 → v10`, `v8 → v9`
+
+---
+
+## Visual of Node Interactions (Directed Graph)
+![logo](assets/FormalGraph.png)
+
+---
 
