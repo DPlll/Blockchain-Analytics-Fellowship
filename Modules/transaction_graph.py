@@ -4,36 +4,23 @@ from collections import defaultdict, deque
 from typing import Dict, List, Set
 
 class TransactionGraphAnalyzer:
+    # Initialize the graph analyzer with a DataFrame of transactions. Args: transactions_df: DataFrame with columns 'tx_from', 'tx_to', 'tx_value', 'tx_time'
     def __init__(self, transactions_df: pd.DataFrame):
-        """
-        Initialize the graph analyzer with a DataFrame of transactions.
-        
-        Args:
-            transactions_df: DataFrame with columns 'tx_from', 'tx_to', 'tx_value', 'tx_time'
-        """
         self.transactions_df = transactions_df
         self.graph = self._build_graph()
         
+        # Ensure that all wallet addresses are present in the graph
     def _build_graph(self) -> Dict[str, List[tuple]]:
-        """
-        Build an adjacency list representation of the transaction graph.
-        Returns a dictionary where keys are wallet addresses and values are lists of
-        (destination_address, value, timestamp) tuples.
-        """
+        
+        # Build a graph where each wallet address is a key and the value is a list of transactions. Each transaction is a tuple of (destination_address, value, timestamp)
         graph = defaultdict(list)
         for _, tx in self.transactions_df.iterrows():
             graph[tx['tx_from']].append((tx['tx_to'], tx['tx_value'], tx['tx_time']))
         return graph
     
+    # Perform BFS to trace transactions between known fraud wallets. Returns paths of transactions between fraud wallets. Args: start_address: The root fraud wallet address to start from known_fraud_addresses: Set of known fraudulent wallet addresses
     def bfs_trace(self, start_address: str, known_fraud_addresses: Set[str]) -> Dict[str, List[tuple]]:
-        """
-        Perform BFS to trace transactions between known fraud wallets.
-        Returns paths of transactions between fraud wallets.
         
-        Args:
-            start_address: The root fraud wallet address to start from
-            known_fraud_addresses: Set of known fraudulent wallet addresses
-        """
         queue = deque([(start_address, [(start_address, 0, 0)])])
         visited = set()
         fraud_paths = defaultdict(list)
@@ -56,16 +43,8 @@ class TransactionGraphAnalyzer:
                     queue.append((next_addr, new_path))
         
         return fraud_paths
-    
+     # Perform DFS to trace transactions between known fraud wallets. Returns paths of transactions between fraud wallets. Args: start_address: The root fraud wallet address to start from known_fraud_addresses: Set of known fraudulent wallet addresses
     def dfs_trace(self, start_address: str, known_fraud_addresses: Set[str]) -> Dict[str, List[tuple]]:
-        """
-        Perform DFS to trace transactions between known fraud wallets.
-        Returns paths of transactions between fraud wallets.
-        
-        Args:
-            start_address: The root fraud wallet address to start from
-            known_fraud_addresses: Set of known fraudulent wallet addresses
-        """
         visited = set()
         fraud_paths = defaultdict(list)
         
@@ -88,12 +67,9 @@ class TransactionGraphAnalyzer:
         # Start DFS from the root fraud wallet
         dfs(start_address, [(start_address, 0, 0)])
         return fraud_paths
-    
+     #Analyze transaction patterns using both BFS and DFS.
     def analyze_fraud_patterns(self, start_address: str, known_fraud_addresses: Set[str]) -> dict:
-        """
-        Analyze transaction patterns using both BFS and DFS.
-        Returns a comprehensive analysis of transaction paths and patterns.
-        """
+        #Returns a comprehensive analysis of transaction paths and patterns.
         bfs_results = self.bfs_trace(start_address, known_fraud_addresses)
         dfs_results = self.dfs_trace(start_address, known_fraud_addresses)
         
