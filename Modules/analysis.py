@@ -7,10 +7,9 @@ from transaction_graph import TransactionGraphAnalyzer
 # Set up logger
 logger = configure_logger(log_file='logs/crypto_analysis.log')
 
+# Analyze transactions for fraud patterns using graph traversal. Args: known_fraud_addresses: List of known fraudulent wallet addresses
 def analyze_transactions(known_fraud_addresses):
-    """
-    Analyze transactions for fraud patterns using graph traversal.
-    """
+
     # Connect to the database
     conn = sqlite3.connect('database/etherscan_data.db')
     

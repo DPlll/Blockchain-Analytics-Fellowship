@@ -120,3 +120,75 @@
 2024-11-18 18:32:31,716 - INFO - Found 0 connected fraud wallets
 2024-11-18 18:32:31,716 - INFO - Discovered 0 unique paths using BFS
 2024-11-18 18:32:31,716 - INFO - Discovered 0 unique paths using DFS
+2024-11-28 12:17:48,612 - INFO - Analyzing transaction patterns from 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66
+2024-11-28 12:17:48,614 - INFO - Found 0 connected fraud wallets
+2024-11-28 12:17:48,614 - INFO - Discovered 0 unique paths using BFS
+2024-11-28 12:17:48,614 - INFO - Discovered 0 unique paths using DFS
+2024-11-28 12:17:48,614 - INFO - Analyzing transaction patterns from 0xf3A78579431F4C9C31d3E4180D4783213787d861
+2024-11-28 12:17:48,614 - INFO - Found 0 connected fraud wallets
+2024-11-28 12:17:48,615 - INFO - Discovered 0 unique paths using BFS
+2024-11-28 12:17:48,615 - INFO - Discovered 0 unique paths using DFS
+2024-11-28 12:17:48,615 - INFO - Analyzing transaction patterns from 0x463676ac589C4D70b158Bda0F2b03C1A3260e829
+2024-11-28 12:17:48,615 - INFO - Found 0 connected fraud wallets
+2024-11-28 12:17:48,615 - INFO - Discovered 0 unique paths using BFS
+2024-11-28 12:17:48,615 - INFO - Discovered 0 unique paths using DFS
+2024-11-28 12:17:48,615 - INFO - Analyzing transaction patterns from 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd
+2024-11-28 12:17:48,615 - INFO - Found 0 connected fraud wallets
+2024-11-28 12:17:48,615 - INFO - Discovered 0 unique paths using BFS
+2024-11-28 12:17:48,615 - INFO - Discovered 0 unique paths using DFS
+2024-11-28 12:17:48,615 - INFO - Analyzing transaction patterns from 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673
+2024-11-28 12:17:48,615 - INFO - Found 0 connected fraud wallets
+2024-11-28 12:17:48,616 - INFO - Discovered 0 unique paths using BFS
+2024-11-28 12:17:48,616 - INFO - Discovered 0 unique paths using DFS
+2024-11-28 12:17:48,616 - INFO - Analyzing transaction patterns from 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE
+2024-11-28 12:17:48,616 - INFO - Found 0 connected fraud wallets
+2024-11-28 12:17:48,616 - INFO - Discovered 0 unique paths using BFS
+2024-11-28 12:17:48,616 - INFO - Discovered 0 unique paths using DFS
+2024-11-28 12:17:48,617 - INFO - Analyzing transaction patterns from 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B
+2024-11-28 12:17:48,617 - INFO - Found 0 connected fraud wallets
+2024-11-28 12:17:48,617 - INFO - Discovered 0 unique paths using BFS
+2024-11-28 12:17:48,617 - INFO - Discovered 0 unique paths using DFS
+2024-11-28 12:17:48,617 - INFO - Analyzing transaction patterns from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9
+2024-11-28 12:17:48,617 - INFO - Found 0 connected fraud wallets
+2024-11-28 12:17:48,617 - INFO - Discovered 0 unique paths using BFS
+2024-11-28 12:17:48,617 - INFO - Discovered 0 unique paths using DFS
+2024-11-28 12:17:48,617 - INFO - Analyzing transaction patterns from 0x981D5DD367b022a162c223cB59B50e1B167098a0
+2024-11-28 12:17:48,618 - INFO - Found 0 connected fraud wallets
+2024-11-28 12:17:48,618 - INFO - Discovered 0 unique paths using BFS
+2024-11-28 12:17:48,618 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 18:09:12,851 - INFO - Analyzing transaction patterns from 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd
+2024-12-21 18:09:12,852 - INFO - Found 0 connected fraud wallets
+2024-12-21 18:09:12,852 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 18:09:12,852 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 18:09:12,852 - INFO - Analyzing transaction patterns from 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673
+2024-12-21 18:09:12,852 - INFO - Found 0 connected fraud wallets
+2024-12-21 18:09:12,852 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 18:09:12,853 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 18:09:12,853 - INFO - Analyzing transaction patterns from 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE
+2024-12-21 18:09:12,853 - INFO - Found 0 connected fraud wallets
+2024-12-21 18:09:12,853 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 18:09:12,853 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 18:09:12,853 - INFO - Analyzing transaction patterns from 0x981D5DD367b022a162c223cB59B50e1B167098a0
+2024-12-21 18:09:12,853 - INFO - Found 0 connected fraud wallets
+2024-12-21 18:09:12,853 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 18:09:12,853 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 18:09:12,853 - INFO - Analyzing transaction patterns from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9
+2024-12-21 18:09:12,853 - INFO - Found 0 connected fraud wallets
+2024-12-21 18:09:12,853 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 18:09:12,853 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 18:09:12,853 - INFO - Analyzing transaction patterns from 0x463676ac589C4D70b158Bda0F2b03C1A3260e829
+2024-12-21 18:09:12,854 - INFO - Found 0 connected fraud wallets
+2024-12-21 18:09:12,854 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 18:09:12,854 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 18:09:12,854 - INFO - Analyzing transaction patterns from 0xf3A78579431F4C9C31d3E4180D4783213787d861
+2024-12-21 18:09:12,854 - INFO - Found 0 connected fraud wallets
+2024-12-21 18:09:12,854 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 18:09:12,854 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 18:09:12,854 - INFO - Analyzing transaction patterns from 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B
+2024-12-21 18:09:12,854 - INFO - Found 0 connected fraud wallets
+2024-12-21 18:09:12,854 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 18:09:12,854 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 18:09:12,854 - INFO - Analyzing transaction patterns from 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66
+2024-12-21 18:09:12,854 - INFO - Found 0 connected fraud wallets
+2024-12-21 18:09:12,854 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 18:09:12,854 - INFO - Discovered 0 unique paths using DFS
