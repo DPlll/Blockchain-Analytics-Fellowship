@@ -9,19 +9,47 @@ logger = configure_logger(log_file='logs/crypto_analysis.log')
 
 # Analyze transactions for fraud patterns using graph traversal. Args: known_fraud_addresses: List of known fraudulent wallet addresses
 def analyze_transactions(known_fraud_addresses):
-
+    # Normalize fraud wallet list
+    fraud_addresses = set(address.lower().strip() for address in known_fraud_addresses) # Normalize addresses
+    
     # Connect to the database
     conn = sqlite3.connect('database/etherscan_data.db')
     
     # Load data into DataFrame
     df = pd.read_sql_query("SELECT * FROM transactions", conn)
+    #print for debugging purposes
+    print(df)
+    # Check for fraud wallets missing in the DataFrame
+    missing_in_data = [
+        wallet for wallet in known_fraud_addresses 
+        if wallet not in df['tx_from'].values and wallet not in df['tx_to'].values
+]
+    if missing_in_data:
+        print(f"Fraud wallets missing in the DataFrame: {missing_in_data}")
+    else:
+        print("All fraud wallets are present in the DataFrame.")
+    # Close the connection
     conn.close()
+    
+     # Normalize wallet addresses in the DataFrame
+    df['tx_from'] = df['tx_from'].str.lower().str.strip()
+    df['tx_to'] = df['tx_to'].str.lower().str.strip()
+     # Debugging: Print missing fraud wallets in DataFrame
+    missing_in_data = [wallet for wallet in fraud_addresses if wallet not in df['tx_from'].values and wallet not in df['tx_to'].values]
+    if missing_in_data:
+        print(f"Fraud wallets missing in data: {missing_in_data}")
+    else:
+        print("All fraud wallets are present in the data.")
     
     # Initialize graph analyzer
     graph_analyzer = TransactionGraphAnalyzer(df)
     
-    # Convert addresses to set for faster lookup
-    fraud_addresses = set(known_fraud_addresses)
+     # Debugging: Check if fraud wallets are in the graph
+    missing_in_graph = [wallet for wallet in fraud_addresses if wallet not in graph_analyzer.graph]
+    if missing_in_graph:
+        print(f"Fraud wallets missing in graph: {missing_in_graph}")
+    else:
+        print("All fraud wallets are present in the graph.")
     
     # Analyze patterns starting from each known fraud address
     results = {}

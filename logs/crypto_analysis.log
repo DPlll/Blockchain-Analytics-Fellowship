@@ -192,3 +192,535 @@
 2024-12-21 18:09:12,854 - INFO - Found 0 connected fraud wallets
 2024-12-21 18:09:12,854 - INFO - Discovered 0 unique paths using BFS
 2024-12-21 18:09:12,854 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 20:55:25,615 - INFO - __main__ is running...
+2024-12-21 20:55:25,817 - INFO - Multi Balance of address 0x9df8c5F47527B6E20D55D03d35C17fc44155c9BC: 2.730899225972708 ETH
+2024-12-21 20:55:25,818 - INFO - Multi Balance of address 0x812Bc129aFC70869DcA342Dd8dFdaa514DC47377: 0.0 ETH
+2024-12-21 20:55:25,818 - INFO - Multi Balance of address xb2C657c65A5CeFdc05bFF86DE25017B8d5C11BA3: 0.0 ETH
+2024-12-21 20:55:26,016 - INFO - Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: (0.00077586349755,) ETH
+2024-12-21 20:55:26,228 - INFO - Retrieving transactions for 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 from etherscan...
+2024-12-21 20:55:26,228 - INFO - Retrieved 8 Transactions from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 via Etherscan...
+2024-12-21 20:55:26,359 - INFO - Stored transactions in the database: 30282
+2024-12-21 20:55:26,359 - INFO - Closing the database connection...
+2024-12-21 20:55:26,359 - INFO - Modules.main_util has completed successfully.
+2024-12-21 20:55:26,361 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 20:56:06,686 - INFO - __main__ is running...
+2024-12-21 20:56:06,866 - INFO - Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: (0.00077586349755,) ETH
+2024-12-21 20:56:07,034 - INFO - Retrieving transactions for 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 from etherscan...
+2024-12-21 20:56:07,034 - INFO - Retrieved 8 Transactions from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 via Etherscan...
+2024-12-21 20:56:07,173 - INFO - Stored transactions in the database: 30290
+2024-12-21 20:56:07,173 - INFO - Closing the database connection...
+2024-12-21 20:56:07,173 - INFO - Modules.main_util has completed successfully.
+2024-12-21 20:56:07,175 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 21:03:17,587 - INFO - __main__ is running...
+2024-12-21 21:03:17,807 - INFO - Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: (0.00077586349755,) ETH
+2024-12-21 21:03:17,991 - INFO - Retrieving transactions for 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 from etherscan...
+2024-12-21 21:03:17,991 - INFO - Retrieved 8 Transactions from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 via Etherscan...
+2024-12-21 21:03:18,082 - INFO - Stored transactions in the database: 8
+2024-12-21 21:03:18,083 - INFO - Closing the database connection...
+2024-12-21 21:03:18,083 - INFO - Modules.main_util has completed successfully.
+2024-12-21 21:03:18,083 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 21:07:10,212 - INFO - Analyzing transaction patterns from 0xf3A78579431F4C9C31d3E4180D4783213787d861
+2024-12-21 21:07:10,213 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:07:10,213 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:07:10,213 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:07:10,213 - INFO - Analyzing transaction patterns from 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE
+2024-12-21 21:07:10,213 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:07:10,213 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:07:10,214 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:07:10,214 - INFO - Analyzing transaction patterns from 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673
+2024-12-21 21:07:10,214 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:07:10,214 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:07:10,214 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:07:10,214 - INFO - Analyzing transaction patterns from 0x463676ac589C4D70b158Bda0F2b03C1A3260e829
+2024-12-21 21:07:10,214 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:07:10,215 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:07:10,215 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:07:10,215 - INFO - Analyzing transaction patterns from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9
+2024-12-21 21:07:10,215 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:07:10,215 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:07:10,216 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:07:10,216 - INFO - Analyzing transaction patterns from 0x981D5DD367b022a162c223cB59B50e1B167098a0
+2024-12-21 21:07:10,216 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:07:10,216 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:07:10,216 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:07:10,216 - INFO - Analyzing transaction patterns from 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B
+2024-12-21 21:07:10,217 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:07:10,217 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:07:10,217 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:07:10,217 - INFO - Analyzing transaction patterns from 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd
+2024-12-21 21:07:10,217 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:07:10,217 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:07:10,217 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:07:10,218 - INFO - Analyzing transaction patterns from 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66
+2024-12-21 21:07:10,218 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:07:10,218 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:07:10,218 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:18,218 - INFO - Analyzing transaction patterns from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9
+2024-12-21 21:21:18,218 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:18,218 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:18,218 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:18,218 - INFO - Analyzing transaction patterns from 0x981D5DD367b022a162c223cB59B50e1B167098a0
+2024-12-21 21:21:18,218 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:18,219 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:18,219 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:18,219 - INFO - Analyzing transaction patterns from 0x463676ac589C4D70b158Bda0F2b03C1A3260e829
+2024-12-21 21:21:18,219 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:18,219 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:18,219 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:18,219 - INFO - Analyzing transaction patterns from 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66
+2024-12-21 21:21:18,219 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:18,219 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:18,219 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:18,220 - INFO - Analyzing transaction patterns from 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B
+2024-12-21 21:21:18,220 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:18,220 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:18,220 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:18,220 - INFO - Analyzing transaction patterns from 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd
+2024-12-21 21:21:18,220 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:18,220 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:18,220 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:18,220 - INFO - Analyzing transaction patterns from 0xf3A78579431F4C9C31d3E4180D4783213787d861
+2024-12-21 21:21:18,220 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:18,221 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:18,221 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:18,221 - INFO - Analyzing transaction patterns from 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE
+2024-12-21 21:21:18,222 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:18,222 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:18,222 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:18,222 - INFO - Analyzing transaction patterns from 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673
+2024-12-21 21:21:18,222 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:18,222 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:18,222 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:57,302 - INFO - Analyzing transaction patterns from 0xf3A78579431F4C9C31d3E4180D4783213787d861
+2024-12-21 21:21:57,302 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:57,302 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:57,303 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:57,303 - INFO - Analyzing transaction patterns from 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd
+2024-12-21 21:21:57,303 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:57,303 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:57,303 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:57,303 - INFO - Analyzing transaction patterns from 0x463676ac589C4D70b158Bda0F2b03C1A3260e829
+2024-12-21 21:21:57,304 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:57,304 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:57,304 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:57,304 - INFO - Analyzing transaction patterns from 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673
+2024-12-21 21:21:57,304 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:57,304 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:57,305 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:57,305 - INFO - Analyzing transaction patterns from 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE
+2024-12-21 21:21:57,305 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:57,305 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:57,305 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:57,305 - INFO - Analyzing transaction patterns from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9
+2024-12-21 21:21:57,305 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:57,305 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:57,306 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:57,306 - INFO - Analyzing transaction patterns from 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66
+2024-12-21 21:21:57,306 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:57,306 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:57,306 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:57,307 - INFO - Analyzing transaction patterns from 0x981D5DD367b022a162c223cB59B50e1B167098a0
+2024-12-21 21:21:57,307 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:57,307 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:57,307 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:21:57,307 - INFO - Analyzing transaction patterns from 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B
+2024-12-21 21:21:57,307 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:21:57,308 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:21:57,308 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:25:43,140 - INFO - Analyzing transaction patterns from 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66
+2024-12-21 21:25:43,141 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:25:43,141 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:25:43,141 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:25:43,141 - INFO - Analyzing transaction patterns from 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd
+2024-12-21 21:25:43,141 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:25:43,141 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:25:43,141 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:25:43,141 - INFO - Analyzing transaction patterns from 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673
+2024-12-21 21:25:43,142 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:25:43,142 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:25:43,142 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:25:43,142 - INFO - Analyzing transaction patterns from 0x463676ac589C4D70b158Bda0F2b03C1A3260e829
+2024-12-21 21:25:43,142 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:25:43,142 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:25:43,142 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:25:43,142 - INFO - Analyzing transaction patterns from 0xf3A78579431F4C9C31d3E4180D4783213787d861
+2024-12-21 21:25:43,142 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:25:43,142 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:25:43,142 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:25:43,143 - INFO - Analyzing transaction patterns from 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B
+2024-12-21 21:25:43,143 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:25:43,143 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:25:43,143 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:25:43,143 - INFO - Analyzing transaction patterns from 0x981D5DD367b022a162c223cB59B50e1B167098a0
+2024-12-21 21:25:43,143 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:25:43,143 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:25:43,143 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:25:43,143 - INFO - Analyzing transaction patterns from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9
+2024-12-21 21:25:43,144 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:25:43,144 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:25:43,144 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:25:43,144 - INFO - Analyzing transaction patterns from 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE
+2024-12-21 21:25:43,144 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:25:43,144 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:25:43,144 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:41:17,706 - INFO - Analyzing transaction patterns from 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2024-12-21 21:41:17,706 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:41:17,706 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:41:17,707 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:41:17,707 - INFO - Analyzing transaction patterns from 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2024-12-21 21:41:17,707 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:41:17,707 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:41:17,708 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:41:17,708 - INFO - Analyzing transaction patterns from 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2024-12-21 21:41:17,708 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:41:17,708 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:41:17,708 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:41:17,709 - INFO - Analyzing transaction patterns from 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2024-12-21 21:41:17,709 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:41:17,709 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:41:17,709 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:41:17,709 - INFO - Analyzing transaction patterns from 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2024-12-21 21:41:17,710 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:41:17,710 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:41:17,710 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:41:17,710 - INFO - Analyzing transaction patterns from 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2024-12-21 21:41:17,710 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:41:17,710 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:41:17,710 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:41:17,710 - INFO - Analyzing transaction patterns from 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2024-12-21 21:41:17,711 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:41:17,711 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:41:17,711 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 21:41:17,712 - INFO - Analyzing transaction patterns from 0x3130a00d2f482c35f32044ace12c64c1db423cf9
+2024-12-21 21:41:17,713 - INFO - Found 3 connected fraud wallets
+2024-12-21 21:41:17,713 - INFO - Discovered 3 unique paths using BFS
+2024-12-21 21:41:17,714 - INFO - Discovered 3 unique paths using DFS
+2024-12-21 21:41:17,714 - INFO - Analyzing transaction patterns from 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2024-12-21 21:41:17,714 - INFO - Found 0 connected fraud wallets
+2024-12-21 21:41:17,714 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 21:41:17,714 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:02:44,931 - INFO - Analyzing transaction patterns from 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2024-12-21 23:02:44,932 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:02:44,932 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:02:44,932 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:02:44,932 - INFO - Analyzing transaction patterns from 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2024-12-21 23:02:44,933 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:02:44,933 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:02:44,933 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:02:44,933 - INFO - Analyzing transaction patterns from 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2024-12-21 23:02:44,934 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:02:44,934 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:02:44,934 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:02:44,934 - INFO - Analyzing transaction patterns from 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2024-12-21 23:02:44,934 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:02:44,934 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:02:44,935 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:02:44,935 - INFO - Analyzing transaction patterns from 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2024-12-21 23:02:44,935 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:02:44,935 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:02:44,935 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:02:44,935 - INFO - Analyzing transaction patterns from 0x3130a00d2f482c35f32044ace12c64c1db423cf9
+2024-12-21 23:02:44,937 - INFO - Found 3 connected fraud wallets
+2024-12-21 23:02:44,937 - INFO - Discovered 3 unique paths using BFS
+2024-12-21 23:02:44,937 - INFO - Discovered 3 unique paths using DFS
+2024-12-21 23:02:44,937 - INFO - Analyzing transaction patterns from 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2024-12-21 23:02:44,938 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:02:44,938 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:02:44,938 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:02:44,938 - INFO - Analyzing transaction patterns from 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2024-12-21 23:02:44,942 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:02:44,943 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:02:44,944 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:02:44,944 - INFO - Analyzing transaction patterns from 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2024-12-21 23:02:44,945 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:02:44,946 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:02:44,946 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:04:37,161 - INFO - __main__ is running...
+2024-12-21 23:06:23,949 - INFO - Analyzing transaction patterns from 0x3130a00d2f482c35f32044ace12c64c1db423cf9
+2024-12-21 23:06:23,950 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:06:23,950 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:06:23,950 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:06:23,950 - INFO - Analyzing transaction patterns from 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2024-12-21 23:06:23,950 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:06:23,950 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:06:23,950 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:06:23,951 - INFO - Analyzing transaction patterns from 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2024-12-21 23:06:23,951 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:06:23,951 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:06:23,951 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:06:23,951 - INFO - Analyzing transaction patterns from 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2024-12-21 23:06:23,952 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:06:23,952 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:06:23,952 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:06:23,952 - INFO - Analyzing transaction patterns from 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2024-12-21 23:06:23,952 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:06:23,952 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:06:23,953 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:06:23,953 - INFO - Analyzing transaction patterns from 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2024-12-21 23:06:23,953 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:06:23,953 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:06:23,954 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:06:23,954 - INFO - Analyzing transaction patterns from 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2024-12-21 23:06:23,954 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:06:23,954 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:06:23,954 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:06:23,955 - INFO - Analyzing transaction patterns from 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2024-12-21 23:06:23,955 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:06:23,955 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:06:23,955 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:06:23,955 - INFO - Analyzing transaction patterns from 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2024-12-21 23:06:23,956 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:06:23,956 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:06:23,956 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:06:53,044 - INFO - __main__ is running...
+2024-12-21 23:06:53,245 - INFO - Multi Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: 0.00077586349755 ETH
+2024-12-21 23:06:53,245 - INFO - Multi Balance of address 0xf3A78579431F4C9C31d3E4180D4783213787d861: 9.0016078832e-05 ETH
+2024-12-21 23:06:53,245 - INFO - Multi Balance of address 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66: 8.7527714828e-05 ETH
+2024-12-21 23:06:53,245 - INFO - Multi Balance of address 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B: 0.000217243596899 ETH
+2024-12-21 23:06:53,245 - INFO - Multi Balance of address 0x463676ac589C4D70b158Bda0F2b03C1A3260e829: 7.1187450614e-05 ETH
+2024-12-21 23:06:53,245 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:06:53,245 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:06:53,245 - INFO - Multi Balance of address 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673: 7.8217812375e-05 ETH
+2024-12-21 23:06:53,245 - INFO - Multi Balance of address 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE: 0.003383 ETH
+2024-12-21 23:06:53,245 - INFO - Multi Balance of address 0x981D5DD367b022a162c223cB59B50e1B167098a0: 0.001127 ETH
+2024-12-21 23:06:53,442 - INFO - Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: (0.00077586349755,) ETH
+2024-12-21 23:06:53,630 - INFO - Retrieving transactions for 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 from etherscan...
+2024-12-21 23:06:53,630 - INFO - Retrieved 8 Transactions from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 via Etherscan...
+2024-12-21 23:06:53,721 - INFO - Stored transactions in the database: 8
+2024-12-21 23:06:53,721 - INFO - Closing the database connection...
+2024-12-21 23:06:53,721 - INFO - Modules.main_util has completed successfully.
+2024-12-21 23:06:53,721 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 23:12:50,693 - INFO - __main__ is running...
+2024-12-21 23:12:50,908 - INFO - Retrieving transactions for 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 from etherscan...
+2024-12-21 23:12:50,909 - INFO - Retrieved 8 Transactions from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 via Etherscan...
+2024-12-21 23:12:51,021 - INFO - Stored transactions in the database: 16
+2024-12-21 23:12:51,021 - INFO - Closing the database connection...
+2024-12-21 23:12:51,021 - INFO - Modules.main_util has completed successfully.
+2024-12-21 23:12:51,021 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 23:13:08,328 - INFO - __main__ is running...
+2024-12-21 23:13:08,513 - INFO - Multi Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: 0.00077586349755 ETH
+2024-12-21 23:13:08,513 - INFO - Multi Balance of address 0xf3A78579431F4C9C31d3E4180D4783213787d861: 9.0016078832e-05 ETH
+2024-12-21 23:13:08,513 - INFO - Multi Balance of address 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66: 8.7527714828e-05 ETH
+2024-12-21 23:13:08,513 - INFO - Multi Balance of address 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B: 0.000217243596899 ETH
+2024-12-21 23:13:08,513 - INFO - Multi Balance of address 0x463676ac589C4D70b158Bda0F2b03C1A3260e829: 7.1187450614e-05 ETH
+2024-12-21 23:13:08,513 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:13:08,513 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:13:08,513 - INFO - Multi Balance of address 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673: 7.8217812375e-05 ETH
+2024-12-21 23:13:08,514 - INFO - Multi Balance of address 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE: 0.003383 ETH
+2024-12-21 23:13:08,514 - INFO - Multi Balance of address 0x981D5DD367b022a162c223cB59B50e1B167098a0: 0.001127 ETH
+2024-12-21 23:13:08,717 - INFO - Retrieving transactions for 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 from etherscan...
+2024-12-21 23:13:08,717 - INFO - Retrieved 8 Transactions from 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9 via Etherscan...
+2024-12-21 23:13:08,775 - INFO - Stored transactions in the database: 24
+2024-12-21 23:13:08,775 - INFO - Closing the database connection...
+2024-12-21 23:13:08,775 - INFO - Modules.main_util has completed successfully.
+2024-12-21 23:13:08,775 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 23:16:08,388 - INFO - Analyzing transaction patterns from 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2024-12-21 23:16:08,389 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:16:08,389 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:16:08,389 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:16:08,389 - INFO - Analyzing transaction patterns from 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2024-12-21 23:16:08,390 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:16:08,390 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:16:08,390 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:16:08,390 - INFO - Analyzing transaction patterns from 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2024-12-21 23:16:08,390 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:16:08,390 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:16:08,391 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:16:08,391 - INFO - Analyzing transaction patterns from 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2024-12-21 23:16:08,391 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:16:08,391 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:16:08,391 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:16:08,391 - INFO - Analyzing transaction patterns from 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2024-12-21 23:16:08,392 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:16:08,392 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:16:08,392 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:16:08,392 - INFO - Analyzing transaction patterns from 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2024-12-21 23:16:08,392 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:16:08,393 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:16:08,393 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:16:08,393 - INFO - Analyzing transaction patterns from 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2024-12-21 23:16:08,393 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:16:08,393 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:16:08,393 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:16:08,393 - INFO - Analyzing transaction patterns from 0x3130a00d2f482c35f32044ace12c64c1db423cf9
+2024-12-21 23:16:08,395 - INFO - Found 3 connected fraud wallets
+2024-12-21 23:16:08,395 - INFO - Discovered 3 unique paths using BFS
+2024-12-21 23:16:08,395 - INFO - Discovered 3 unique paths using DFS
+2024-12-21 23:16:08,396 - INFO - Analyzing transaction patterns from 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2024-12-21 23:16:08,396 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:16:08,396 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:16:08,396 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:17:25,437 - INFO - __main__ is running...
+2024-12-21 23:17:25,658 - INFO - Multi Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: 0.00077586349755 ETH
+2024-12-21 23:17:25,659 - INFO - Multi Balance of address 0xf3A78579431F4C9C31d3E4180D4783213787d861: 9.0016078832e-05 ETH
+2024-12-21 23:17:25,659 - INFO - Multi Balance of address 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66: 8.7527714828e-05 ETH
+2024-12-21 23:17:25,659 - INFO - Multi Balance of address 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B: 0.000217243596899 ETH
+2024-12-21 23:17:25,659 - INFO - Multi Balance of address 0x463676ac589C4D70b158Bda0F2b03C1A3260e829: 7.1187450614e-05 ETH
+2024-12-21 23:17:25,659 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:17:25,659 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:17:25,659 - INFO - Multi Balance of address 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673: 7.8217812375e-05 ETH
+2024-12-21 23:17:25,659 - INFO - Multi Balance of address 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE: 0.003383 ETH
+2024-12-21 23:17:25,659 - INFO - Multi Balance of address 0x981D5DD367b022a162c223cB59B50e1B167098a0: 0.001127 ETH
+2024-12-21 23:17:25,874 - INFO - Retrieving transactions for 0xf3A78579431F4C9C31d3E4180D4783213787d861 from etherscan...
+2024-12-21 23:17:25,874 - INFO - Retrieved 3 Transactions from 0xf3A78579431F4C9C31d3E4180D4783213787d861 via Etherscan...
+2024-12-21 23:17:25,917 - INFO - Stored transactions in the database: 27
+2024-12-21 23:17:25,917 - INFO - Closing the database connection...
+2024-12-21 23:17:25,917 - INFO - Modules.main_util has completed successfully.
+2024-12-21 23:17:25,918 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 23:18:02,094 - INFO - __main__ is running...
+2024-12-21 23:18:02,295 - INFO - Multi Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: 0.00077586349755 ETH
+2024-12-21 23:18:02,295 - INFO - Multi Balance of address 0xf3A78579431F4C9C31d3E4180D4783213787d861: 9.0016078832e-05 ETH
+2024-12-21 23:18:02,295 - INFO - Multi Balance of address 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66: 8.7527714828e-05 ETH
+2024-12-21 23:18:02,295 - INFO - Multi Balance of address 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B: 0.000217243596899 ETH
+2024-12-21 23:18:02,295 - INFO - Multi Balance of address 0x463676ac589C4D70b158Bda0F2b03C1A3260e829: 7.1187450614e-05 ETH
+2024-12-21 23:18:02,295 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:18:02,295 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:18:02,295 - INFO - Multi Balance of address 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673: 7.8217812375e-05 ETH
+2024-12-21 23:18:02,296 - INFO - Multi Balance of address 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE: 0.003383 ETH
+2024-12-21 23:18:02,296 - INFO - Multi Balance of address 0x981D5DD367b022a162c223cB59B50e1B167098a0: 0.001127 ETH
+2024-12-21 23:18:02,508 - INFO - Retrieving transactions for 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66 from etherscan...
+2024-12-21 23:18:02,508 - INFO - Retrieved 3 Transactions from 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66 via Etherscan...
+2024-12-21 23:18:02,536 - INFO - Stored transactions in the database: 30
+2024-12-21 23:18:02,537 - INFO - Closing the database connection...
+2024-12-21 23:18:02,537 - INFO - Modules.main_util has completed successfully.
+2024-12-21 23:18:02,537 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 23:18:18,288 - INFO - __main__ is running...
+2024-12-21 23:18:18,491 - INFO - Multi Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: 0.00077586349755 ETH
+2024-12-21 23:18:18,491 - INFO - Multi Balance of address 0xf3A78579431F4C9C31d3E4180D4783213787d861: 9.0016078832e-05 ETH
+2024-12-21 23:18:18,492 - INFO - Multi Balance of address 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66: 8.7527714828e-05 ETH
+2024-12-21 23:18:18,492 - INFO - Multi Balance of address 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B: 0.000217243596899 ETH
+2024-12-21 23:18:18,492 - INFO - Multi Balance of address 0x463676ac589C4D70b158Bda0F2b03C1A3260e829: 7.1187450614e-05 ETH
+2024-12-21 23:18:18,492 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:18:18,492 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:18:18,492 - INFO - Multi Balance of address 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673: 7.8217812375e-05 ETH
+2024-12-21 23:18:18,492 - INFO - Multi Balance of address 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE: 0.003383 ETH
+2024-12-21 23:18:18,492 - INFO - Multi Balance of address 0x981D5DD367b022a162c223cB59B50e1B167098a0: 0.001127 ETH
+2024-12-21 23:18:18,677 - INFO - Retrieving transactions for 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66 from etherscan...
+2024-12-21 23:18:18,677 - INFO - Retrieved 3 Transactions from 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66 via Etherscan...
+2024-12-21 23:18:18,698 - INFO - Stored transactions in the database: 33
+2024-12-21 23:18:18,698 - INFO - Closing the database connection...
+2024-12-21 23:18:18,699 - INFO - Modules.main_util has completed successfully.
+2024-12-21 23:18:18,699 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 23:18:44,285 - INFO - __main__ is running...
+2024-12-21 23:18:44,479 - INFO - Multi Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: 0.00077586349755 ETH
+2024-12-21 23:18:44,479 - INFO - Multi Balance of address 0xf3A78579431F4C9C31d3E4180D4783213787d861: 9.0016078832e-05 ETH
+2024-12-21 23:18:44,479 - INFO - Multi Balance of address 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66: 8.7527714828e-05 ETH
+2024-12-21 23:18:44,479 - INFO - Multi Balance of address 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B: 0.000217243596899 ETH
+2024-12-21 23:18:44,479 - INFO - Multi Balance of address 0x463676ac589C4D70b158Bda0F2b03C1A3260e829: 7.1187450614e-05 ETH
+2024-12-21 23:18:44,479 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:18:44,480 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:18:44,480 - INFO - Multi Balance of address 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673: 7.8217812375e-05 ETH
+2024-12-21 23:18:44,480 - INFO - Multi Balance of address 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE: 0.003383 ETH
+2024-12-21 23:18:44,480 - INFO - Multi Balance of address 0x981D5DD367b022a162c223cB59B50e1B167098a0: 0.001127 ETH
+2024-12-21 23:18:47,739 - INFO - Retrieving transactions for 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66 from etherscan...
+2024-12-21 23:18:47,739 - INFO - Retrieved 3 Transactions from 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66 via Etherscan...
+2024-12-21 23:18:47,767 - INFO - Stored transactions in the database: 36
+2024-12-21 23:18:47,767 - INFO - Closing the database connection...
+2024-12-21 23:18:47,768 - INFO - Modules.main_util has completed successfully.
+2024-12-21 23:18:47,768 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 23:19:10,532 - INFO - __main__ is running...
+2024-12-21 23:19:10,736 - INFO - Multi Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: 0.00077586349755 ETH
+2024-12-21 23:19:10,736 - INFO - Multi Balance of address 0xf3A78579431F4C9C31d3E4180D4783213787d861: 9.0016078832e-05 ETH
+2024-12-21 23:19:10,736 - INFO - Multi Balance of address 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66: 8.7527714828e-05 ETH
+2024-12-21 23:19:10,737 - INFO - Multi Balance of address 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B: 0.000217243596899 ETH
+2024-12-21 23:19:10,737 - INFO - Multi Balance of address 0x463676ac589C4D70b158Bda0F2b03C1A3260e829: 7.1187450614e-05 ETH
+2024-12-21 23:19:10,737 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:19:10,737 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:19:10,737 - INFO - Multi Balance of address 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673: 7.8217812375e-05 ETH
+2024-12-21 23:19:10,737 - INFO - Multi Balance of address 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE: 0.003383 ETH
+2024-12-21 23:19:10,737 - INFO - Multi Balance of address 0x981D5DD367b022a162c223cB59B50e1B167098a0: 0.001127 ETH
+2024-12-21 23:19:10,912 - INFO - Retrieving transactions for 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66 from etherscan...
+2024-12-21 23:19:10,913 - INFO - Retrieved 3 Transactions from 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66 via Etherscan...
+2024-12-21 23:19:10,935 - INFO - Stored transactions in the database: 39
+2024-12-21 23:19:10,936 - INFO - Closing the database connection...
+2024-12-21 23:19:10,936 - INFO - Modules.main_util has completed successfully.
+2024-12-21 23:19:10,936 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 23:19:45,466 - INFO - __main__ is running...
+2024-12-21 23:19:45,669 - INFO - Multi Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: 0.00077586349755 ETH
+2024-12-21 23:19:45,670 - INFO - Multi Balance of address 0xf3A78579431F4C9C31d3E4180D4783213787d861: 9.0016078832e-05 ETH
+2024-12-21 23:19:45,670 - INFO - Multi Balance of address 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66: 8.7527714828e-05 ETH
+2024-12-21 23:19:45,670 - INFO - Multi Balance of address 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B: 0.000217243596899 ETH
+2024-12-21 23:19:45,670 - INFO - Multi Balance of address 0x463676ac589C4D70b158Bda0F2b03C1A3260e829: 7.1187450614e-05 ETH
+2024-12-21 23:19:45,670 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:19:45,670 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2024-12-21 23:19:45,670 - INFO - Multi Balance of address 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673: 7.8217812375e-05 ETH
+2024-12-21 23:19:45,670 - INFO - Multi Balance of address 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE: 0.003383 ETH
+2024-12-21 23:19:45,671 - INFO - Multi Balance of address 0x981D5DD367b022a162c223cB59B50e1B167098a0: 0.001127 ETH
+2024-12-21 23:19:45,878 - INFO - Retrieving transactions for 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66 from etherscan...
+2024-12-21 23:19:45,879 - INFO - Retrieved 3 Transactions from 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66 via Etherscan...
+2024-12-21 23:19:45,908 - INFO - Stored transactions in the database: 42
+2024-12-21 23:19:45,908 - INFO - Closing the database connection...
+2024-12-21 23:19:45,910 - INFO - Modules.main_util has completed successfully.
+2024-12-21 23:19:45,910 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2024-12-21 23:19:55,419 - INFO - Analyzing transaction patterns from 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2024-12-21 23:19:55,420 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:19:55,420 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:19:55,420 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:19:55,420 - INFO - Analyzing transaction patterns from 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2024-12-21 23:19:55,421 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:19:55,421 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:19:55,421 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:19:55,421 - INFO - Analyzing transaction patterns from 0x3130a00d2f482c35f32044ace12c64c1db423cf9
+2024-12-21 23:19:55,424 - INFO - Found 5 connected fraud wallets
+2024-12-21 23:19:55,424 - INFO - Discovered 5 unique paths using BFS
+2024-12-21 23:19:55,424 - INFO - Discovered 5 unique paths using DFS
+2024-12-21 23:19:55,425 - INFO - Analyzing transaction patterns from 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2024-12-21 23:19:55,425 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:19:55,425 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:19:55,425 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:19:55,425 - INFO - Analyzing transaction patterns from 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2024-12-21 23:19:55,426 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:19:55,426 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:19:55,426 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:19:55,426 - INFO - Analyzing transaction patterns from 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2024-12-21 23:19:55,427 - INFO - Found 1 connected fraud wallets
+2024-12-21 23:19:55,427 - INFO - Discovered 1 unique paths using BFS
+2024-12-21 23:19:55,427 - INFO - Discovered 1 unique paths using DFS
+2024-12-21 23:19:55,427 - INFO - Analyzing transaction patterns from 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2024-12-21 23:19:55,428 - INFO - Found 1 connected fraud wallets
+2024-12-21 23:19:55,428 - INFO - Discovered 1 unique paths using BFS
+2024-12-21 23:19:55,428 - INFO - Discovered 1 unique paths using DFS
+2024-12-21 23:19:55,428 - INFO - Analyzing transaction patterns from 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2024-12-21 23:19:55,428 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:19:55,429 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:19:55,429 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:19:55,429 - INFO - Analyzing transaction patterns from 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2024-12-21 23:19:55,429 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:19:55,429 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:19:55,429 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:21:13,817 - INFO - Analyzing transaction patterns from 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2024-12-21 23:21:13,818 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:21:13,818 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:21:13,818 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:21:13,818 - INFO - Analyzing transaction patterns from 0x3130a00d2f482c35f32044ace12c64c1db423cf9
+2024-12-21 23:21:13,821 - INFO - Found 5 connected fraud wallets
+2024-12-21 23:21:13,822 - INFO - Discovered 5 unique paths using BFS
+2024-12-21 23:21:13,822 - INFO - Discovered 5 unique paths using DFS
+2024-12-21 23:21:13,822 - INFO - Analyzing transaction patterns from 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2024-12-21 23:21:13,822 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:21:13,823 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:21:13,823 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:21:13,823 - INFO - Analyzing transaction patterns from 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2024-12-21 23:21:13,823 - INFO - Found 1 connected fraud wallets
+2024-12-21 23:21:13,824 - INFO - Discovered 1 unique paths using BFS
+2024-12-21 23:21:13,824 - INFO - Discovered 1 unique paths using DFS
+2024-12-21 23:21:13,824 - INFO - Analyzing transaction patterns from 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2024-12-21 23:21:13,825 - INFO - Found 1 connected fraud wallets
+2024-12-21 23:21:13,825 - INFO - Discovered 1 unique paths using BFS
+2024-12-21 23:21:13,825 - INFO - Discovered 1 unique paths using DFS
+2024-12-21 23:21:13,825 - INFO - Analyzing transaction patterns from 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2024-12-21 23:21:13,826 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:21:13,826 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:21:13,826 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:21:13,826 - INFO - Analyzing transaction patterns from 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2024-12-21 23:21:13,826 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:21:13,826 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:21:13,827 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:21:13,827 - INFO - Analyzing transaction patterns from 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2024-12-21 23:21:13,827 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:21:13,827 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:21:13,827 - INFO - Discovered 0 unique paths using DFS
+2024-12-21 23:21:13,827 - INFO - Analyzing transaction patterns from 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2024-12-21 23:21:13,828 - INFO - Found 0 connected fraud wallets
+2024-12-21 23:21:13,828 - INFO - Discovered 0 unique paths using BFS
+2024-12-21 23:21:13,828 - INFO - Discovered 0 unique paths using DFS

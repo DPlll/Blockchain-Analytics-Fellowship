@@ -19,7 +19,7 @@ def main():
     fetch_multi_balances(addresses)
     
     # Fetch and log single balance
-    fetch_balance(address)
+#    fetch_balance(address)
     
     # Fetch and store transactions
     fetch_and_store_transactions(address)
