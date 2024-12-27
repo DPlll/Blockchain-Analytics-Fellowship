@@ -1,5 +1,6 @@
 # transaction_graph.py
 import pandas as pd
+from Modules.main_util import fetch_and_store_transactions
 from collections import defaultdict, deque
 from typing import Dict, List, Set
 
@@ -7,9 +8,10 @@ from typing import Dict, List, Set
 class TransactionGraphAnalyzer:
     
     # --- Initialize the graph analyzer with a DataFrame of transactions. --- # Args: transactions_df: DataFrame with columns 'tx_from', 'tx_to', 'tx_value', 'tx_time'
-    def __init__(self, transactions_df: pd.DataFrame):
-        self.transactions_df = transactions_df
-        self.graph = self._build_graph()
+    def __init__(self, transactions_df: pd.DataFrame, eth_db = "etherscan_data.db"):
+        self.transactions_df = transactions_df # DataFrame with transactions
+        self.eth_db = eth_db # Database object
+        self.graph = self._build_graph() # Build the graph from the transactions
         
         # --- Ensure that all wallet addresses are present in the graph --- #
     def _build_graph(self) -> Dict[str, List[tuple]]:
@@ -21,7 +23,7 @@ class TransactionGraphAnalyzer:
             tx_to = tx['tx_to'].strip().lower()
             # Build the graph
             graph[tx_from].append((tx_to, tx['tx_value'], tx['tx_time']))
-        # Debugging: Print graph keys and sample connections
+        #Debugging: Print graph keys and sample connections
         print(f"Graph keys (first 10 wallets): {list(graph.keys())[:10]}")  # Print first 10 keys
         for key, value in list(graph.items())[:5]:  # Print first 5 connections
             print(f"{key}: {value}")
@@ -38,11 +40,16 @@ class TransactionGraphAnalyzer:
             if current_address in visited:
                 continue
             visited.add(current_address)
-            # If we've found a path to another fraud wallet, save it
+        # Dynamically fetch missing transactions for the current wallet
+            if current_address not in self.graph:
+                print(f"Fetching missing transactions for {current_address}")
+                fetch_and_store_transactions(current_address, db=self.eth_db)
+                self.graph = self._build_graph()  # Rebuild the graph with the newly fetched data
+        # If we've found a path to another fraud wallet, save it
             if current_address in known_fraud_addresses and current_address != start_address:
                 print(f"Found fraud wallet: {current_address}")  # Debugging
                 fraud_paths[current_address].append(path)
-            # Add all neighboring transactions to queue
+        # Add all neighboring transactions to queue
             for next_addr, value, timestamp in self.graph.get(current_address, []):
                 if next_addr not in visited:
                     new_path = path + [(next_addr, value, timestamp)]
@@ -53,20 +60,30 @@ class TransactionGraphAnalyzer:
     def dfs_trace(self, start_address: str, known_fraud_addresses: Set[str]) -> Dict[str, List[tuple]]:
         visited = set()
         fraud_paths = defaultdict(list)
+
         def dfs(current_address: str, path: List[tuple]):
             print(f"Visiting: {current_address}, Path: {path}")  # Debugging
             if current_address in visited:
                 return
             visited.add(current_address)
-            # If we've found a path to another fraud wallet, save it
+
+        # Dynamically fetch missing transactions for the current wallet
+            if current_address not in self.graph:
+                print(f"Fetching missing transactions for {current_address}")
+                fetch_and_store_transactions(current_address, db=self.eth_db)  # Use ETH_Database object
+                self.graph = self._build_graph()  # Rebuild the graph with the newly fetched data
+
+        # If we've found a path to another fraud wallet, save it
             if current_address in known_fraud_addresses and current_address != start_address:
                 print(f"Found fraud wallet: {current_address}")  # Debugging
                 fraud_paths[current_address].append(path)
-            # Explore all neighboring transactions
+
+        # Explore all neighboring transactions
             for next_addr, value, timestamp in self.graph.get(current_address, []):
                 if next_addr not in visited:
                     new_path = path + [(next_addr, value, timestamp)]
                     dfs(next_addr, new_path)
+
         # Start DFS from the root fraud wallet
         dfs(start_address, [(start_address, 0, 0)])
         return fraud_paths

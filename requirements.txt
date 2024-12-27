@@ -1,10 +1,7 @@
 #python  v3.12.2 
-colorlog
-requests
-python-dotenv
-sqlite3
-os
-numpy
-pandas
-
-
+colorlog>=6.8.2
+requests>=2.31.0
+python-dotenv>=1.0.1
+numpy>=1.26.4
+pandas>=2.2.1
+networkx>=3.2.1

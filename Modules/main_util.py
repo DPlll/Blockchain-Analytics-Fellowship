@@ -26,7 +26,19 @@ def fetch_balance(address):
     return balance
 
 # --- Call get_transactions from the API module and store the transactions in the database ---
-def fetch_and_store_transactions(address): 
+def fetch_and_store_transactions(address, db=ETH_DB): 
+    logger.info(f"{__name__} is running...")
+    # For Dynamic Fetching of tranasctions during analysis. (Check if transactions for this wallet already exist in the database)
+    existing_tx = db.cursor.execute(
+        "SELECT * FROM transactions WHERE tx_from = ? OR tx_to = ?", 
+        (address, address)
+    ).fetchall()
+    # If transactions exist, skip the API call
+    if existing_tx:
+        print(f"Transactions for {address} already exist in the database. Skipping API call.")
+        return
+    
+    # -- Get transactions from the API -- 
     transactions = get_transactions(address) # Get transactions from the API
     logger.info(f"Retrieving transactions for {address} from etherscan...")  # print address
     if transactions:  # Check if transactions is not None or empty
