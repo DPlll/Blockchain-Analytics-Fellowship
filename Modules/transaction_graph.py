@@ -1,11 +1,16 @@
 # transaction_graph.py
 import pandas as pd
+from Modules.logger_config import configure_logger
 from Modules.main_util import fetch_and_store_transactions
 from collections import defaultdict, deque
 from typing import Dict, List, Set
 
+# Set up logger
+logger = configure_logger(log_file='logs/crypto_analysis.log')
+
 # Class to analyze transaction patterns (DFS/BFS) using graph traversal # 
 class TransactionGraphAnalyzer:
+    logger.info(f"{__name__} Running...")
     
     # --- Initialize the graph analyzer with a DataFrame of transactions. --- # Args: transactions_df: DataFrame with columns 'tx_from', 'tx_to', 'tx_value', 'tx_time'
     def __init__(self, transactions_df: pd.DataFrame, eth_db = "etherscan_data.db"):
@@ -24,9 +29,9 @@ class TransactionGraphAnalyzer:
             # Build the graph
             graph[tx_from].append((tx_to, tx['tx_value'], tx['tx_time']))
         #Debugging: Print graph keys and sample connections
-        print(f"Graph keys (first 10 wallets): {list(graph.keys())[:10]}")  # Print first 10 keys
+        logger.debug(f"{__name__}Graph keys (first 10 wallets): {list(graph.keys())[:10]}")  # Print first 10 keys
         for key, value in list(graph.items())[:5]:  # Print first 5 connections
-            print(f"{key}: {value}")
+            logger.debug(f"{__name__} Graph Key: {key}, Sample Connection Pathing: {value}")
         return graph
     
     # --- Perform BFS to trace transactions between known fraud wallets. --- # Returns paths of transactions between fraud wallets. Args: start_address: The root fraud wallet address to start from known_fraud_addresses: Set of known fraudulent wallet addresses
@@ -36,18 +41,18 @@ class TransactionGraphAnalyzer:
         fraud_paths = defaultdict(list)
         while queue:
             current_address, path = queue.popleft()
-            print(f"Visiting: {current_address}, Path: {path}")  # Debugging
+            logger.debug(f"Visiting: {current_address}\n Path: {path}")  # Debugging
             if current_address in visited:
                 continue
             visited.add(current_address)
         # Dynamically fetch missing transactions for the current wallet
             if current_address not in self.graph:
-                print(f"Fetching missing transactions for {current_address}")
+                logger.info(f"Fetching missing transactions for {current_address}")
                 fetch_and_store_transactions(current_address, db=self.eth_db)
                 self.graph = self._build_graph()  # Rebuild the graph with the newly fetched data
         # If we've found a path to another fraud wallet, save it
             if current_address in known_fraud_addresses and current_address != start_address:
-                print(f"Found fraud wallet: {current_address}")  # Debugging
+                logger.info(f"Found fraud wallet: {current_address}")  # Debugging
                 fraud_paths[current_address].append(path)
         # Add all neighboring transactions to queue
             for next_addr, value, timestamp in self.graph.get(current_address, []):
@@ -62,20 +67,20 @@ class TransactionGraphAnalyzer:
         fraud_paths = defaultdict(list)
 
         def dfs(current_address: str, path: List[tuple]):
-            print(f"Visiting: {current_address}, Path: {path}")  # Debugging
+            logger.debug(f"Visiting: {current_address}, Path: {path}")  # Debugging
             if current_address in visited:
                 return
             visited.add(current_address)
 
         # Dynamically fetch missing transactions for the current wallet
             if current_address not in self.graph:
-                print(f"Fetching missing transactions for {current_address}")
+                logger.info(f"Fetching missing transactions for {current_address}")
                 fetch_and_store_transactions(current_address, db=self.eth_db)  # Use ETH_Database object
                 self.graph = self._build_graph()  # Rebuild the graph with the newly fetched data
 
         # If we've found a path to another fraud wallet, save it
             if current_address in known_fraud_addresses and current_address != start_address:
-                print(f"Found fraud wallet: {current_address}")  # Debugging
+                logger.debug(f"Found fraud wallet: {current_address}")  # Debugging
                 fraud_paths[current_address].append(path)
 
         # Explore all neighboring transactions
@@ -93,9 +98,10 @@ class TransactionGraphAnalyzer:
         # Check for fraud wallets missing in the graph (debugging)
         missing_wallets = [wallet for wallet in known_fraud_addresses if wallet not in self.graph]
         if missing_wallets:
-            print(f"Missing fraud wallets in the graph: {missing_wallets}")
+            logger.info(f"Number of Missing fraud wallets in the graph: {len(missing_wallets)}")
+            logger.debug(f"Missing fraud wallets in the graph: {missing_wallets}")
         else:
-            print(f"All fraud wallets are present in the graph: {known_fraud_addresses}.")
+            logger.info(f"All fraud wallets are present in the graph: {known_fraud_addresses}.")
         #Returns a comprehensive analysis of transaction paths and patterns.
         bfs_results = self.bfs_trace(start_address, known_fraud_addresses)
         dfs_results = self.dfs_trace(start_address, known_fraud_addresses)
