@@ -4493,3 +4493,453 @@ Accsessing database for data <class 'Modules.database.ETH_Database'>
 2024-12-29 22:44:09,395 - INFO - Modules.analysis Found 1 connected fraud wallets
 2024-12-29 22:44:09,396 - INFO - Modules.analysis Discovered 1 unique paths using BFS
 2024-12-29 22:44:09,396 - INFO - Modules.analysis Discovered 1 unique paths using DFS
+2025-01-28 22:49:50,414 - INFO - Modules.transaction_graph Running...
+2025-01-28 22:49:50,414 - INFO - Modules.analysis is running...
+
+2025-01-28 22:49:50,414 - INFO - Beggining Dynamicly Recursive Blochain Analysis.
+
+2025-01-28 22:49:50,414 - INFO - Accsessing database <class 'Modules.database.ETH_Database'>
+
+2025-01-28 22:49:50,450 - INFO - --- SQL DB Data SUMMARY ---
+2025-01-28 22:49:50,466 - INFO - Fraud wallets missing in the DataFrame: 10
+2025-01-28 22:49:50,613 - INFO - Fraud wallets missing in graph: ['0x981d5dd367b022a162c223cb59b50e1b167098a0', '0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee', '0x4ab17933de56f049ca81ae2913608e14ca7319bd', '0x463676ac589c4d70b158bda0f2b03c1a3260e829']
+2025-01-28 22:49:50,613 - INFO - Analyzing transaction patterns from 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2025-01-28 22:49:50,613 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-01-28 22:49:50,613 - INFO - Fetching missing transactions for 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2025-01-28 22:49:50,613 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:50,758 - INFO - Fetching missing transactions for 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2025-01-28 22:49:50,759 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:50,900 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-01-28 22:49:50,901 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-01-28 22:49:50,901 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-01-28 22:49:50,901 - INFO - Modules.analysis Discovered 0 unique paths using DFS
+2025-01-28 22:49:50,901 - INFO - Analyzing transaction patterns from 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:50,901 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-01-28 22:49:50,901 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:50,902 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:51,046 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:51,046 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:51,188 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-01-28 22:49:51,188 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-01-28 22:49:51,188 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-01-28 22:49:51,188 - INFO - Modules.analysis Discovered 0 unique paths using DFS
+2025-01-28 22:49:51,189 - INFO - Analyzing transaction patterns from 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2025-01-28 22:49:51,189 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-01-28 22:49:51,189 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:51,189 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:51,332 - INFO - Found fraud wallet: 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:51,332 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:51,332 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:51,477 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-01-28 22:49:51,478 - INFO - Modules.analysis Found 1 connected fraud wallets
+2025-01-28 22:49:51,478 - INFO - Modules.analysis Discovered 1 unique paths using BFS
+2025-01-28 22:49:51,478 - INFO - Modules.analysis Discovered 1 unique paths using DFS
+2025-01-28 22:49:51,478 - INFO - Analyzing transaction patterns from 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-01-28 22:49:51,479 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-01-28 22:49:51,479 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-01-28 22:49:51,479 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:51,620 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-01-28 22:49:51,621 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:51,760 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-01-28 22:49:51,760 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-01-28 22:49:51,760 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-01-28 22:49:51,760 - INFO - Modules.analysis Discovered 0 unique paths using DFS
+2025-01-28 22:49:51,761 - INFO - Analyzing transaction patterns from 0x3130a00d2f482c35f32044ace12c64c1db423cf9
+2025-01-28 22:49:51,761 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-01-28 22:49:51,761 - INFO - Found fraud wallet: 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2025-01-28 22:49:51,761 - INFO - Found fraud wallet: 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2025-01-28 22:49:51,761 - INFO - Found fraud wallet: 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2025-01-28 22:49:51,761 - INFO - Found fraud wallet: 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2025-01-28 22:49:51,761 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-01-28 22:49:51,761 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:51,903 - INFO - Found fraud wallet: 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-01-28 22:49:51,903 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-01-28 22:49:51,903 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:52,041 - INFO - Found fraud wallet: 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-01-28 22:49:52,042 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:52,042 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:52,180 - INFO - Found fraud wallet: 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:52,181 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:52,181 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:52,329 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-01-28 22:49:52,329 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:52,473 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-01-28 22:49:52,473 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:52,615 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-01-28 22:49:52,616 - INFO - Modules.analysis Found 7 connected fraud wallets
+2025-01-28 22:49:52,616 - INFO - Modules.analysis Discovered 7 unique paths using BFS
+2025-01-28 22:49:52,616 - INFO - Modules.analysis Discovered 7 unique paths using DFS
+2025-01-28 22:49:52,616 - INFO - Analyzing transaction patterns from 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-01-28 22:49:52,617 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-01-28 22:49:52,617 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-01-28 22:49:52,617 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:52,755 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-01-28 22:49:52,756 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:52,898 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-01-28 22:49:52,898 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-01-28 22:49:52,899 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-01-28 22:49:52,899 - INFO - Modules.analysis Discovered 0 unique paths using DFS
+2025-01-28 22:49:52,899 - INFO - Analyzing transaction patterns from 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2025-01-28 22:49:52,899 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-01-28 22:49:52,899 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-01-28 22:49:52,899 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:53,042 - INFO - Found fraud wallet: 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-01-28 22:49:53,042 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-01-28 22:49:53,042 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:53,180 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-01-28 22:49:53,181 - INFO - Modules.analysis Found 1 connected fraud wallets
+2025-01-28 22:49:53,181 - INFO - Modules.analysis Discovered 1 unique paths using BFS
+2025-01-28 22:49:53,181 - INFO - Modules.analysis Discovered 1 unique paths using DFS
+2025-01-28 22:49:53,181 - INFO - Analyzing transaction patterns from 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2025-01-28 22:49:53,181 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-01-28 22:49:53,181 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-01-28 22:49:53,181 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:53,322 - INFO - Found fraud wallet: 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-01-28 22:49:53,322 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-01-28 22:49:53,322 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:53,463 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-01-28 22:49:53,463 - INFO - Modules.analysis Found 1 connected fraud wallets
+2025-01-28 22:49:53,463 - INFO - Modules.analysis Discovered 1 unique paths using BFS
+2025-01-28 22:49:53,464 - INFO - Modules.analysis Discovered 1 unique paths using DFS
+2025-01-28 22:49:53,464 - INFO - Analyzing transaction patterns from 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2025-01-28 22:49:53,464 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-01-28 22:49:53,464 - INFO - Found fraud wallet: 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2025-01-28 22:49:53,464 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:53,465 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:53,602 - INFO - Found fraud wallet: 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:53,602 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-01-28 22:49:53,602 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:49:53,743 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-01-28 22:49:53,743 - INFO - Modules.analysis Found 2 connected fraud wallets
+2025-01-28 22:49:53,743 - INFO - Modules.analysis Discovered 2 unique paths using BFS
+2025-01-28 22:49:53,744 - INFO - Modules.analysis Discovered 2 unique paths using DFS
+2025-01-28 22:51:58,661 - INFO - __main__ is running...
+2025-01-28 22:51:58,910 - INFO - Multi Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: 0.00077586349755 ETH
+2025-01-28 22:51:58,911 - INFO - Multi Balance of address 0xf3A78579431F4C9C31d3E4180D4783213787d861: 9.0016078832e-05 ETH
+2025-01-28 22:51:58,911 - INFO - Multi Balance of address 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66: 8.7527714828e-05 ETH
+2025-01-28 22:51:58,911 - INFO - Multi Balance of address 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B: 0.000217243596899 ETH
+2025-01-28 22:51:58,911 - INFO - Multi Balance of address 0x463676ac589C4D70b158Bda0F2b03C1A3260e829: 7.1187450614e-05 ETH
+2025-01-28 22:51:58,911 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2025-01-28 22:51:58,911 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2025-01-28 22:51:58,912 - INFO - Multi Balance of address 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673: 7.8217812375e-05 ETH
+2025-01-28 22:51:58,912 - INFO - Multi Balance of address 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE: 0.003383 ETH
+2025-01-28 22:51:58,912 - INFO - Multi Balance of address 0x981D5DD367b022a162c223cB59B50e1B167098a0: 0.001127 ETH
+2025-01-28 22:51:58,912 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-01-28 22:51:59,148 - INFO - Retrieving transactions for 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673 from etherscan...
+2025-01-28 22:51:59,148 - INFO - Retrieved 2 Transactions from 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673 via Etherscan...
+2025-01-28 22:51:59,177 - INFO - Stored transactions in the database: 10069
+2025-01-28 22:51:59,177 - INFO - Closing the database connection...
+2025-01-28 22:51:59,177 - INFO - Modules.main_util has completed successfully.
+2025-01-28 22:51:59,178 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2025-02-18 19:34:52,531 - INFO - Modules.transaction_graph Running...
+2025-02-18 19:34:52,534 - INFO - Modules.analysis is running...
+
+2025-02-18 19:34:52,534 - INFO - Beggining Dynamicly Recursive Blochain Analysis.
+
+2025-02-18 19:34:52,535 - INFO - Accsessing database <class 'Modules.database.ETH_Database'>
+
+2025-02-18 19:34:52,570 - INFO - --- SQL DB Data SUMMARY ---
+2025-02-18 19:34:52,600 - INFO - Fraud wallets missing in the DataFrame: 10
+2025-02-18 19:34:52,756 - INFO - Fraud wallets missing in graph: ['0x463676ac589c4d70b158bda0f2b03c1a3260e829', '0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee', '0x4ab17933de56f049ca81ae2913608e14ca7319bd', '0x981d5dd367b022a162c223cb59b50e1b167098a0']
+2025-02-18 19:34:52,756 - INFO - Analyzing transaction patterns from 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2025-02-18 19:34:52,756 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-02-18 19:34:52,756 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-02-18 19:34:52,756 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:52,903 - INFO - Found fraud wallet: 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-02-18 19:34:52,904 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-02-18 19:34:52,904 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:53,050 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-02-18 19:34:53,050 - INFO - Modules.analysis Found 1 connected fraud wallets
+2025-02-18 19:34:53,050 - INFO - Modules.analysis Discovered 1 unique paths using BFS
+2025-02-18 19:34:53,051 - INFO - Modules.analysis Discovered 1 unique paths using DFS
+2025-02-18 19:34:53,051 - INFO - Analyzing transaction patterns from 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-02-18 19:34:53,051 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-02-18 19:34:53,051 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-02-18 19:34:53,051 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:53,192 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-02-18 19:34:53,192 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:53,337 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-02-18 19:34:53,338 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-02-18 19:34:53,338 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-02-18 19:34:53,338 - INFO - Modules.analysis Discovered 0 unique paths using DFS
+2025-02-18 19:34:53,338 - INFO - Analyzing transaction patterns from 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:53,339 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-02-18 19:34:53,339 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:53,339 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:53,486 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:53,486 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:53,631 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-02-18 19:34:53,631 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-02-18 19:34:53,631 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-02-18 19:34:53,632 - INFO - Modules.analysis Discovered 0 unique paths using DFS
+2025-02-18 19:34:53,632 - INFO - Analyzing transaction patterns from 0x3130a00d2f482c35f32044ace12c64c1db423cf9
+2025-02-18 19:34:53,632 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-02-18 19:34:53,632 - INFO - Found fraud wallet: 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2025-02-18 19:34:53,632 - INFO - Found fraud wallet: 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2025-02-18 19:34:53,632 - INFO - Found fraud wallet: 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2025-02-18 19:34:53,632 - INFO - Found fraud wallet: 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2025-02-18 19:34:53,633 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-02-18 19:34:53,633 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:53,778 - INFO - Found fraud wallet: 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-02-18 19:34:53,778 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-02-18 19:34:53,778 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:53,924 - INFO - Found fraud wallet: 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-02-18 19:34:53,924 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:53,924 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:54,067 - INFO - Found fraud wallet: 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:54,067 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:54,068 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:54,211 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-02-18 19:34:54,211 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:54,355 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-02-18 19:34:54,355 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:54,498 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-02-18 19:34:54,498 - INFO - Modules.analysis Found 7 connected fraud wallets
+2025-02-18 19:34:54,499 - INFO - Modules.analysis Discovered 7 unique paths using BFS
+2025-02-18 19:34:54,499 - INFO - Modules.analysis Discovered 7 unique paths using DFS
+2025-02-18 19:34:54,499 - INFO - Analyzing transaction patterns from 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2025-02-18 19:34:54,499 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-02-18 19:34:54,499 - INFO - Found fraud wallet: 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2025-02-18 19:34:54,499 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:54,499 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:54,649 - INFO - Found fraud wallet: 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:54,649 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:54,649 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:54,795 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-02-18 19:34:54,796 - INFO - Modules.analysis Found 2 connected fraud wallets
+2025-02-18 19:34:54,796 - INFO - Modules.analysis Discovered 2 unique paths using BFS
+2025-02-18 19:34:54,796 - INFO - Modules.analysis Discovered 2 unique paths using DFS
+2025-02-18 19:34:54,796 - INFO - Analyzing transaction patterns from 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-02-18 19:34:54,796 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-02-18 19:34:54,796 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-02-18 19:34:54,796 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:54,946 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-02-18 19:34:54,946 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:55,098 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-02-18 19:34:55,099 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-02-18 19:34:55,099 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-02-18 19:34:55,099 - INFO - Modules.analysis Discovered 0 unique paths using DFS
+2025-02-18 19:34:55,099 - INFO - Analyzing transaction patterns from 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2025-02-18 19:34:55,099 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-02-18 19:34:55,099 - INFO - Fetching missing transactions for 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2025-02-18 19:34:55,100 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:55,247 - INFO - Fetching missing transactions for 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2025-02-18 19:34:55,247 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:55,388 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-02-18 19:34:55,389 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-02-18 19:34:55,389 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-02-18 19:34:55,389 - INFO - Modules.analysis Discovered 0 unique paths using DFS
+2025-02-18 19:34:55,389 - INFO - Analyzing transaction patterns from 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2025-02-18 19:34:55,389 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-02-18 19:34:55,390 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:55,390 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:55,536 - INFO - Found fraud wallet: 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:55,536 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-02-18 19:34:55,536 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:55,675 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-02-18 19:34:55,676 - INFO - Modules.analysis Found 1 connected fraud wallets
+2025-02-18 19:34:55,676 - INFO - Modules.analysis Discovered 1 unique paths using BFS
+2025-02-18 19:34:55,676 - INFO - Modules.analysis Discovered 1 unique paths using DFS
+2025-02-18 19:34:55,676 - INFO - Analyzing transaction patterns from 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2025-02-18 19:34:55,676 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-02-18 19:34:55,677 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-02-18 19:34:55,677 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:55,822 - INFO - Found fraud wallet: 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-02-18 19:34:55,822 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-02-18 19:34:55,823 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-02-18 19:34:55,970 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-02-18 19:34:55,970 - INFO - Modules.analysis Found 1 connected fraud wallets
+2025-02-18 19:34:55,970 - INFO - Modules.analysis Discovered 1 unique paths using BFS
+2025-02-18 19:34:55,970 - INFO - Modules.analysis Discovered 1 unique paths using DFS
+2025-03-30 16:12:17,714 - INFO - __main__ is running...
+2025-03-30 16:12:18,141 - INFO - Multi Balance of address 0x3130A00D2F482c35F32044Ace12c64C1dB423cf9: 0.00077586349755 ETH
+2025-03-30 16:12:18,141 - INFO - Multi Balance of address 0xf3A78579431F4C9C31d3E4180D4783213787d861: 9.0016078832e-05 ETH
+2025-03-30 16:12:18,142 - INFO - Multi Balance of address 0xE868d4bCDA51DcCe5269d74eDaa65162a2c04e66: 8.7527714828e-05 ETH
+2025-03-30 16:12:18,142 - INFO - Multi Balance of address 0x32f0591087CFC166B6CFCef97dB845Fb27A1274B: 0.000217243596899 ETH
+2025-03-30 16:12:18,142 - INFO - Multi Balance of address 0x463676ac589C4D70b158Bda0F2b03C1A3260e829: 7.1187450614e-05 ETH
+2025-03-30 16:12:18,142 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2025-03-30 16:12:18,142 - INFO - Multi Balance of address 0x4AB17933dE56f049Ca81ae2913608e14ca7319Bd: 7.3760434837e-05 ETH
+2025-03-30 16:12:18,142 - INFO - Multi Balance of address 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673: 7.8217812375e-05 ETH
+2025-03-30 16:12:18,142 - INFO - Multi Balance of address 0x24F6Caa8E722fA7AC9509C6218a5482195f7C5eE: 0.003383 ETH
+2025-03-30 16:12:18,142 - INFO - Multi Balance of address 0x981D5DD367b022a162c223cB59B50e1B167098a0: 0.001127 ETH
+2025-03-30 16:12:18,142 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:18,380 - INFO - Retrieving transactions for 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673 from etherscan...
+2025-03-30 16:12:18,380 - INFO - Retrieved 2 Transactions from 0xfF59d11d5F0D448AD84E246aC2c04F6678e85673 via Etherscan...
+2025-03-30 16:12:18,537 - INFO - Stored transactions in the database: 10071
+2025-03-30 16:12:18,538 - INFO - Closing the database connection...
+2025-03-30 16:12:18,538 - INFO - Modules.main_util has completed successfully.
+2025-03-30 16:12:18,538 - INFO - __main__ is done. Check logs/crypto_analysis.log for more details and database/etherscan_data.db for transactions details pulled from the blockchain.
+2025-03-30 16:12:52,933 - INFO - Modules.transaction_graph Running...
+2025-03-30 16:12:52,934 - INFO - Modules.analysis is running...
+
+2025-03-30 16:12:52,934 - INFO - Beggining Dynamicly Recursive Blochain Analysis.
+
+2025-03-30 16:12:52,934 - INFO - Accsessing database <class 'Modules.database.ETH_Database'>
+
+2025-03-30 16:12:52,970 - INFO - --- SQL DB Data SUMMARY ---
+2025-03-30 16:12:52,990 - INFO - Fraud wallets missing in the DataFrame: 10
+2025-03-30 16:12:53,138 - INFO - Fraud wallets missing in graph: ['0x4ab17933de56f049ca81ae2913608e14ca7319bd', '0x463676ac589c4d70b158bda0f2b03c1a3260e829', '0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee', '0x981d5dd367b022a162c223cb59b50e1b167098a0']
+2025-03-30 16:12:53,138 - INFO - Analyzing transaction patterns from 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-03-30 16:12:53,138 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-03-30 16:12:53,138 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-03-30 16:12:53,139 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:53,283 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-03-30 16:12:53,283 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:53,428 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-03-30 16:12:53,429 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-03-30 16:12:53,429 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-03-30 16:12:53,429 - INFO - Modules.analysis Discovered 0 unique paths using DFS
+2025-03-30 16:12:53,429 - INFO - Analyzing transaction patterns from 0x3130a00d2f482c35f32044ace12c64c1db423cf9
+2025-03-30 16:12:53,429 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-03-30 16:12:53,429 - INFO - Found fraud wallet: 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2025-03-30 16:12:53,429 - INFO - Found fraud wallet: 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2025-03-30 16:12:53,429 - INFO - Found fraud wallet: 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2025-03-30 16:12:53,430 - INFO - Found fraud wallet: 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2025-03-30 16:12:53,430 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-03-30 16:12:53,430 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:53,574 - INFO - Found fraud wallet: 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-03-30 16:12:53,574 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-03-30 16:12:53,574 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:53,720 - INFO - Found fraud wallet: 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-03-30 16:12:53,720 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:53,720 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:53,861 - INFO - Found fraud wallet: 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:53,861 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:53,861 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:54,007 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-03-30 16:12:54,007 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:54,153 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-03-30 16:12:54,153 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:54,295 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-03-30 16:12:54,296 - INFO - Modules.analysis Found 7 connected fraud wallets
+2025-03-30 16:12:54,296 - INFO - Modules.analysis Discovered 7 unique paths using BFS
+2025-03-30 16:12:54,296 - INFO - Modules.analysis Discovered 7 unique paths using DFS
+2025-03-30 16:12:54,296 - INFO - Analyzing transaction patterns from 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2025-03-30 16:12:54,296 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-03-30 16:12:54,296 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:54,296 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:54,440 - INFO - Found fraud wallet: 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:54,440 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:54,440 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:54,582 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-03-30 16:12:54,583 - INFO - Modules.analysis Found 1 connected fraud wallets
+2025-03-30 16:12:54,583 - INFO - Modules.analysis Discovered 1 unique paths using BFS
+2025-03-30 16:12:54,583 - INFO - Modules.analysis Discovered 1 unique paths using DFS
+2025-03-30 16:12:54,583 - INFO - Analyzing transaction patterns from 0xf3a78579431f4c9c31d3e4180d4783213787d861
+2025-03-30 16:12:54,583 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-03-30 16:12:54,583 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-03-30 16:12:54,583 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:54,730 - INFO - Found fraud wallet: 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-03-30 16:12:54,730 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-03-30 16:12:54,730 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:54,872 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-03-30 16:12:54,873 - INFO - Modules.analysis Found 1 connected fraud wallets
+2025-03-30 16:12:54,873 - INFO - Modules.analysis Discovered 1 unique paths using BFS
+2025-03-30 16:12:54,873 - INFO - Modules.analysis Discovered 1 unique paths using DFS
+2025-03-30 16:12:54,873 - INFO - Analyzing transaction patterns from 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-03-30 16:12:54,873 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-03-30 16:12:54,873 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-03-30 16:12:54,874 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:55,020 - INFO - Fetching missing transactions for 0x463676ac589c4d70b158bda0f2b03c1a3260e829
+2025-03-30 16:12:55,021 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:55,163 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-03-30 16:12:55,164 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-03-30 16:12:55,164 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-03-30 16:12:55,164 - INFO - Modules.analysis Discovered 0 unique paths using DFS
+2025-03-30 16:12:55,164 - INFO - Analyzing transaction patterns from 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:55,164 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-03-30 16:12:55,164 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:55,165 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:55,312 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:55,313 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:55,456 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-03-30 16:12:55,456 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-03-30 16:12:55,457 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-03-30 16:12:55,457 - INFO - Modules.analysis Discovered 0 unique paths using DFS
+2025-03-30 16:12:55,457 - INFO - Analyzing transaction patterns from 0xe868d4bcda51dcce5269d74edaa65162a2c04e66
+2025-03-30 16:12:55,457 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-03-30 16:12:55,457 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-03-30 16:12:55,457 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:55,599 - INFO - Found fraud wallet: 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-03-30 16:12:55,599 - INFO - Fetching missing transactions for 0x4ab17933de56f049ca81ae2913608e14ca7319bd
+2025-03-30 16:12:55,599 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:55,740 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-03-30 16:12:55,740 - INFO - Modules.analysis Found 1 connected fraud wallets
+2025-03-30 16:12:55,740 - INFO - Modules.analysis Discovered 1 unique paths using BFS
+2025-03-30 16:12:55,740 - INFO - Modules.analysis Discovered 1 unique paths using DFS
+2025-03-30 16:12:55,741 - INFO - Analyzing transaction patterns from 0x32f0591087cfc166b6cfcef97db845fb27a1274b
+2025-03-30 16:12:55,741 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-03-30 16:12:55,741 - INFO - Found fraud wallet: 0xff59d11d5f0d448ad84e246ac2c04f6678e85673
+2025-03-30 16:12:55,741 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:55,741 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:55,883 - INFO - Found fraud wallet: 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:55,883 - INFO - Fetching missing transactions for 0x24f6caa8e722fa7ac9509c6218a5482195f7c5ee
+2025-03-30 16:12:55,883 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:56,024 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-03-30 16:12:56,024 - INFO - Modules.analysis Found 2 connected fraud wallets
+2025-03-30 16:12:56,024 - INFO - Modules.analysis Discovered 2 unique paths using BFS
+2025-03-30 16:12:56,024 - INFO - Modules.analysis Discovered 2 unique paths using DFS
+2025-03-30 16:12:56,024 - INFO - Analyzing transaction patterns from 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2025-03-30 16:12:56,025 - INFO - Number of Missing fraud wallets in the graph: 4
+2025-03-30 16:12:56,025 - INFO - Fetching missing transactions for 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2025-03-30 16:12:56,025 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:56,169 - INFO - Fetching missing transactions for 0x981d5dd367b022a162c223cb59b50e1b167098a0
+2025-03-30 16:12:56,170 - INFO - Modules.main_util fetch_and_store_transactions is running...
+2025-03-30 16:12:56,328 - INFO - 
+ ---  Dynamic Search Analysis Summary  --- 
+
+2025-03-30 16:12:56,328 - INFO - Modules.analysis Found 0 connected fraud wallets
+2025-03-30 16:12:56,328 - INFO - Modules.analysis Discovered 0 unique paths using BFS
+2025-03-30 16:12:56,328 - INFO - Modules.analysis Discovered 0 unique paths using DFS
